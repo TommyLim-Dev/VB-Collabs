@@ -24,16 +24,19 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.Pertemuan1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Pertemuan2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Tugas1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Tugas2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Pertemuan1ToolStripMenuItem, Me.Pertemuan2ToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Pertemuan1ToolStripMenuItem, Me.Pertemuan2ToolStripMenuItem, Me.Pertemuan3ToolStripMenuItem, Me.Pertemuan4ToolStripMenuItem, Me.Pertemuan5ToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
@@ -47,23 +50,41 @@ Partial Class Form1
         Me.Pertemuan1ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
         Me.Pertemuan1ToolStripMenuItem.Text = "Pertemuan 1"
         '
+        'Tugas1ToolStripMenuItem
+        '
+        Me.Tugas1ToolStripMenuItem.Name = "Tugas1ToolStripMenuItem"
+        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(143, 26)
+        Me.Tugas1ToolStripMenuItem.Text = "Tugas 1"
+        '
+        'Tugas2ToolStripMenuItem
+        '
+        Me.Tugas2ToolStripMenuItem.Name = "Tugas2ToolStripMenuItem"
+        Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(143, 26)
+        Me.Tugas2ToolStripMenuItem.Text = "Tugas 2"
+        '
         'Pertemuan2ToolStripMenuItem
         '
         Me.Pertemuan2ToolStripMenuItem.Name = "Pertemuan2ToolStripMenuItem"
         Me.Pertemuan2ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
         Me.Pertemuan2ToolStripMenuItem.Text = "Pertemuan 2"
         '
-        'Tugas1ToolStripMenuItem
+        'Pertemuan3ToolStripMenuItem
         '
-        Me.Tugas1ToolStripMenuItem.Name = "Tugas1ToolStripMenuItem"
-        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.Tugas1ToolStripMenuItem.Text = "Tugas 1"
+        Me.Pertemuan3ToolStripMenuItem.Name = "Pertemuan3ToolStripMenuItem"
+        Me.Pertemuan3ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan3ToolStripMenuItem.Text = "Pertemuan 3"
         '
-        'Tugas2ToolStripMenuItem
+        'Pertemuan4ToolStripMenuItem
         '
-        Me.Tugas2ToolStripMenuItem.Name = "Tugas2ToolStripMenuItem"
-        Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
-        Me.Tugas2ToolStripMenuItem.Text = "Tugas 2"
+        Me.Pertemuan4ToolStripMenuItem.Name = "Pertemuan4ToolStripMenuItem"
+        Me.Pertemuan4ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan4ToolStripMenuItem.Text = "Pertemuan 4"
+        '
+        'Pertemuan5ToolStripMenuItem
+        '
+        Me.Pertemuan5ToolStripMenuItem.Name = "Pertemuan5ToolStripMenuItem"
+        Me.Pertemuan5ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan5ToolStripMenuItem.Text = "Pertemuan 5"
         '
         'Form1
         '
@@ -87,4 +108,7 @@ Partial Class Form1
     Friend WithEvents Pertemuan2ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Tugas1ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Tugas2ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Pertemuan3ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Pertemuan4ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Pertemuan5ToolStripMenuItem As ToolStripMenuItem
 End Class
