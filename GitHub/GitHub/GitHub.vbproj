@@ -73,11 +73,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
+    <Compile Include="pertemuan_01\hello_world.Designer.vb">
+      <DependentUpon>hello_world.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="pertemuan_01\hello_world.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu_Form.Designer.vb">
@@ -101,10 +100,40 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="pertemuan_02\convert_tipe_data.designer.vb">
+      <DependentUpon>convert_tipe_data.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_02\convert_tipe_data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_02\convert_tipe_data_2.designer.vb">
+      <DependentUpon>convert_tipe_data_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_02\convert_tipe_data_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_02\operator.designer.vb">
+      <DependentUpon>operator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_02\operator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_02\operator_2.designer.vb">
+      <DependentUpon>operator_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_02\operator_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_02\operator_relasi.designer.vb">
+      <DependentUpon>operator_relasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_02\operator_relasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="pertemuan_01\hello_world.resx">
+      <DependentUpon>hello_world.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Form.resx">
       <DependentUpon>Menu_Form.vb</DependentUpon>
@@ -114,6 +143,18 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_02\convert_tipe_data_2.resx">
+      <DependentUpon>convert_tipe_data_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_02\operator.resx">
+      <DependentUpon>operator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_02\operator_2.resx">
+      <DependentUpon>operator_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_02\operator_relasi.resx">
+      <DependentUpon>operator_relasi.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -128,5 +169,6 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

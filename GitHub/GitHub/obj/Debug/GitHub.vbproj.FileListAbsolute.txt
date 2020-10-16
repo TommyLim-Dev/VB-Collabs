@@ -14,3 +14,17 @@ C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cach
 C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.exe
 C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.xml
 C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.pdb
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cache
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.hello_world.resources
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Menu_Form.resources
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Resources.resources
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.GenerateResource.cache
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.CoreCompileInputs.cache
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.exe
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.xml
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.pdb
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.exe.config
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.exe
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.pdb
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.xml
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data.resources
