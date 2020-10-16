@@ -10,3 +10,7 @@ D:\Semester III\VB.NET\GitHub\GitHub\GitHub\obj\Debug\GitHub.vbproj.CoreCompileI
 D:\Semester III\VB.NET\GitHub\GitHub\GitHub\obj\Debug\GitHub.exe
 D:\Semester III\VB.NET\GitHub\GitHub\GitHub\obj\Debug\GitHub.xml
 D:\Semester III\VB.NET\GitHub\GitHub\GitHub\obj\Debug\GitHub.pdb
+C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cache
+C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.exe
+C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.xml
+C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.pdb
