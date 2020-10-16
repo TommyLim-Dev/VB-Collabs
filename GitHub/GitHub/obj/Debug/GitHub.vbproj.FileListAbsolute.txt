@@ -14,3 +14,15 @@ C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cach
 C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.exe
 C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.xml
 C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.pdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cache
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.exe
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.xml
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.pdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.exe.config
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.exe
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.pdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.xml
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Menu_Form.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Resources.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.GenerateResource.cache
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.CoreCompileInputs.cache
