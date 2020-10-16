@@ -32,17 +32,18 @@ Partial Class Menu_Form
         Me.Pertemuan5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Pertemuan6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Pertemuan8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Pertemuan1ToolStripMenuItem, Me.Pertemuan2ToolStripMenuItem, Me.Pertemuan3ToolStripMenuItem, Me.Pertemuan4ToolStripMenuItem, Me.Pertemuan5ToolStripMenuItem, Me.Pertemuan6ToolStripMenuItem, Me.Pertemuan8ToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Pertemuan1ToolStripMenuItem, Me.Pertemuan2ToolStripMenuItem, Me.Pertemuan3ToolStripMenuItem, Me.Pertemuan4ToolStripMenuItem, Me.Pertemuan5ToolStripMenuItem, Me.Pertemuan6ToolStripMenuItem, Me.Pertemuan8ToolStripMenuItem, Me.Pertemuan9ToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(686, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(758, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -56,13 +57,13 @@ Partial Class Menu_Form
         'Tugas1ToolStripMenuItem
         '
         Me.Tugas1ToolStripMenuItem.Name = "Tugas1ToolStripMenuItem"
-        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
         Me.Tugas1ToolStripMenuItem.Text = "Tugas 1"
         '
         'Tugas2ToolStripMenuItem
         '
         Me.Tugas2ToolStripMenuItem.Name = "Tugas2ToolStripMenuItem"
-        Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.Tugas2ToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
         Me.Tugas2ToolStripMenuItem.Text = "Tugas 2"
         '
         'Pertemuan2ToolStripMenuItem
@@ -101,11 +102,17 @@ Partial Class Menu_Form
         Me.Pertemuan8ToolStripMenuItem.Size = New System.Drawing.Size(86, 20)
         Me.Pertemuan8ToolStripMenuItem.Text = "Pertemuan 8"
         '
+        'Pertemuan9ToolStripMenuItem
+        '
+        Me.Pertemuan9ToolStripMenuItem.Name = "Pertemuan9ToolStripMenuItem"
+        Me.Pertemuan9ToolStripMenuItem.Size = New System.Drawing.Size(86, 20)
+        Me.Pertemuan9ToolStripMenuItem.Text = "Pertemuan 9"
+        '
         'Menu_Form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(686, 366)
+        Me.ClientSize = New System.Drawing.Size(758, 366)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(2)
@@ -129,4 +136,5 @@ Partial Class Menu_Form
     Friend WithEvents Pertemuan5ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Pertemuan6ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Pertemuan8ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Pertemuan9ToolStripMenuItem As ToolStripMenuItem
 End Class
