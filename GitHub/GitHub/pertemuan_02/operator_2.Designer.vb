@@ -161,7 +161,7 @@ Partial Class operator_2
         Me.RadioButton1.Text = "Pembagian (/)"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
-        'Form1
+        'operator_2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -175,7 +175,8 @@ Partial Class operator_2
         Me.Controls.Add(Me.hasil)
         Me.Controls.Add(Me.text2)
         Me.Controls.Add(Me.text1)
-        Me.Name = "Form1"
+        Me.Name = "operator_2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Operator 2"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

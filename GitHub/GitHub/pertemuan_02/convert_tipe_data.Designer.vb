@@ -106,7 +106,7 @@ Partial Class convert_tipe_data
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Total"
         '
-        'Form1
+        'convert_tipe_data
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -120,7 +120,8 @@ Partial Class convert_tipe_data
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Form1"
+        Me.Name = "convert_tipe_data"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Convert Tipe Data"
         Me.ResumeLayout(False)
         Me.PerformLayout()

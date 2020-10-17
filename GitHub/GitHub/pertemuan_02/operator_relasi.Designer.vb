@@ -180,7 +180,7 @@ Partial Class operator_relasi
         Me.RadioButton6.Text = "<> (Tidak Samadengan)"
         Me.RadioButton6.UseVisualStyleBackColor = True
         '
-        'Form1
+        'operator_relasi
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -200,7 +200,8 @@ Partial Class operator_relasi
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.Name = "operator_relasi"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

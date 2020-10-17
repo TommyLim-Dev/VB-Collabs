@@ -27,10 +27,10 @@ Partial Class Form1
         Me.pertama = New System.Windows.Forms.TextBox()
         Me.kedua = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.hasil = New System.Windows.Forms.TextBox()
@@ -82,23 +82,14 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Operator"
         '
-        'Button1
+        'Button4
         '
-        Me.Button1.Location = New System.Drawing.Point(18, 53)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(25, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "+"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(67, 53)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(25, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "-"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button4.Location = New System.Drawing.Point(169, 53)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(25, 23)
+        Me.Button4.TabIndex = 3
+        Me.Button4.Text = "/"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
         '
@@ -109,14 +100,23 @@ Partial Class Form1
         Me.Button3.Text = "x"
         Me.Button3.UseVisualStyleBackColor = True
         '
-        'Button4
+        'Button2
         '
-        Me.Button4.Location = New System.Drawing.Point(169, 53)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(25, 23)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "/"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button2.Location = New System.Drawing.Point(67, 53)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(25, 23)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "-"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(18, 53)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(25, 23)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "+"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Button5
         '
@@ -157,6 +157,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Operator"
         Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)

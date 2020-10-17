@@ -144,6 +144,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_02\convert_tipe_data.resx">
+      <DependentUpon>convert_tipe_data.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="pertemuan_02\convert_tipe_data_2.resx">
       <DependentUpon>convert_tipe_data_2.vb</DependentUpon>
     </EmbeddedResource>

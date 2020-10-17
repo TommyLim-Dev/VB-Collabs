@@ -28,3 +28,21 @@ C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\V
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.pdb
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.xml
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.exe.config
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.exe
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.pdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.xml
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.hello_world.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Menu_Form.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Resources.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data_2.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form1.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_2.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_relasi.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.GenerateResource.cache
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.CoreCompileInputs.cache
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.exe
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.xml
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.pdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cache
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data.resources

@@ -124,7 +124,7 @@ Partial Class hello_world
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "Label1"
         '
-        'Form1
+        'hello_world
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -139,7 +139,8 @@ Partial Class hello_world
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Form1"
+        Me.Name = "hello_world"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
