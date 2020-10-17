@@ -33,10 +33,6 @@ Partial Class Menu_Form
         Me.ConvertTIpeDataToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConvertTipeData2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Pertemuan3ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Pertemuan4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Pertemuan5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Pertemuan6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Pertemuan8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.IfThenElseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CheckboxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RadioButtonToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -44,6 +40,25 @@ Partial Class Menu_Form
         Me.NestedIfToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EntryDataMahasiswaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PercabanganIfToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan4ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SelectCase01ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SelectCase02ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SelectCase03ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SelectCase04ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PenghitunganGajiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProgramSPBUToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PrulanganForNext01ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PerulanganForNext02ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PerulanganForNext03ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PerulanganForNext04ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PerulanganDoWhileLoopToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PerulanganDOUntilLoopToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PerulanganWhileEndWhileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Latihan1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -68,7 +83,7 @@ Partial Class Menu_Form
         'Tugas1ToolStripMenuItem
         '
         Me.Tugas1ToolStripMenuItem.Name = "Tugas1ToolStripMenuItem"
-        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(172, 26)
+        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.Tugas1ToolStripMenuItem.Text = "Hello World"
         '
         'Pertemuan2ToolStripMenuItem
@@ -121,30 +136,6 @@ Partial Class Menu_Form
         Me.Pertemuan3ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
         Me.Pertemuan3ToolStripMenuItem.Text = "Pertemuan 3"
         '
-        'Pertemuan4ToolStripMenuItem
-        '
-        Me.Pertemuan4ToolStripMenuItem.Name = "Pertemuan4ToolStripMenuItem"
-        Me.Pertemuan4ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
-        Me.Pertemuan4ToolStripMenuItem.Text = "Pertemuan 4"
-        '
-        'Pertemuan5ToolStripMenuItem
-        '
-        Me.Pertemuan5ToolStripMenuItem.Name = "Pertemuan5ToolStripMenuItem"
-        Me.Pertemuan5ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
-        Me.Pertemuan5ToolStripMenuItem.Text = "Pertemuan 5"
-        '
-        'Pertemuan6ToolStripMenuItem
-        '
-        Me.Pertemuan6ToolStripMenuItem.Name = "Pertemuan6ToolStripMenuItem"
-        Me.Pertemuan6ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
-        Me.Pertemuan6ToolStripMenuItem.Text = "Pertemuan 6"
-        '
-        'Pertemuan8ToolStripMenuItem
-        '
-        Me.Pertemuan8ToolStripMenuItem.Name = "Pertemuan8ToolStripMenuItem"
-        Me.Pertemuan8ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
-        Me.Pertemuan8ToolStripMenuItem.Text = "Pertemuan 8"
-        '
         'IfThenElseToolStripMenuItem
         '
         Me.IfThenElseToolStripMenuItem.Name = "IfThenElseToolStripMenuItem"
@@ -187,6 +178,122 @@ Partial Class Menu_Form
         Me.PercabanganIfToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
         Me.PercabanganIfToolStripMenuItem.Text = "Percabangan If"
         '
+        'Pertemuan4ToolStripMenuItem
+        '
+        Me.Pertemuan4ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SelectCase01ToolStripMenuItem, Me.SelectCase02ToolStripMenuItem, Me.SelectCase03ToolStripMenuItem, Me.SelectCase04ToolStripMenuItem, Me.PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem, Me.PenghitunganGajiToolStripMenuItem, Me.ProgramSPBUToolStripMenuItem})
+        Me.Pertemuan4ToolStripMenuItem.Name = "Pertemuan4ToolStripMenuItem"
+        Me.Pertemuan4ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan4ToolStripMenuItem.Text = "Pertemuan 4"
+        '
+        'SelectCase01ToolStripMenuItem
+        '
+        Me.SelectCase01ToolStripMenuItem.Name = "SelectCase01ToolStripMenuItem"
+        Me.SelectCase01ToolStripMenuItem.Size = New System.Drawing.Size(362, 26)
+        Me.SelectCase01ToolStripMenuItem.Text = "Select Case 01"
+        '
+        'SelectCase02ToolStripMenuItem
+        '
+        Me.SelectCase02ToolStripMenuItem.Name = "SelectCase02ToolStripMenuItem"
+        Me.SelectCase02ToolStripMenuItem.Size = New System.Drawing.Size(362, 26)
+        Me.SelectCase02ToolStripMenuItem.Text = "Select Case 02"
+        '
+        'SelectCase03ToolStripMenuItem
+        '
+        Me.SelectCase03ToolStripMenuItem.Name = "SelectCase03ToolStripMenuItem"
+        Me.SelectCase03ToolStripMenuItem.Size = New System.Drawing.Size(362, 26)
+        Me.SelectCase03ToolStripMenuItem.Text = "Select Case 03"
+        '
+        'SelectCase04ToolStripMenuItem
+        '
+        Me.SelectCase04ToolStripMenuItem.Name = "SelectCase04ToolStripMenuItem"
+        Me.SelectCase04ToolStripMenuItem.Size = New System.Drawing.Size(362, 26)
+        Me.SelectCase04ToolStripMenuItem.Text = "Select Case 04"
+        '
+        'PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem
+        '
+        Me.PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem.Name = "PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem"
+        Me.PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem.Size = New System.Drawing.Size(362, 26)
+        Me.PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem.Text = "Penghitungan Nilai dan Penentuan Grade"
+        '
+        'Pertemuan5ToolStripMenuItem
+        '
+        Me.Pertemuan5ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PrulanganForNext01ToolStripMenuItem, Me.PerulanganForNext02ToolStripMenuItem, Me.PerulanganForNext03ToolStripMenuItem, Me.PerulanganForNext04ToolStripMenuItem, Me.PerulanganDoWhileLoopToolStripMenuItem, Me.PerulanganDOUntilLoopToolStripMenuItem, Me.PerulanganWhileEndWhileToolStripMenuItem, Me.Latihan1ToolStripMenuItem})
+        Me.Pertemuan5ToolStripMenuItem.Name = "Pertemuan5ToolStripMenuItem"
+        Me.Pertemuan5ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan5ToolStripMenuItem.Text = "Pertemuan 5"
+        '
+        'Pertemuan6ToolStripMenuItem
+        '
+        Me.Pertemuan6ToolStripMenuItem.Name = "Pertemuan6ToolStripMenuItem"
+        Me.Pertemuan6ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan6ToolStripMenuItem.Text = "Pertemuan 6"
+        '
+        'Pertemuan8ToolStripMenuItem
+        '
+        Me.Pertemuan8ToolStripMenuItem.Name = "Pertemuan8ToolStripMenuItem"
+        Me.Pertemuan8ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan8ToolStripMenuItem.Text = "Pertemuan 8"
+        '
+        'PenghitunganGajiToolStripMenuItem
+        '
+        Me.PenghitunganGajiToolStripMenuItem.Name = "PenghitunganGajiToolStripMenuItem"
+        Me.PenghitunganGajiToolStripMenuItem.Size = New System.Drawing.Size(362, 26)
+        Me.PenghitunganGajiToolStripMenuItem.Text = "Penghitungan Gaji"
+        '
+        'ProgramSPBUToolStripMenuItem
+        '
+        Me.ProgramSPBUToolStripMenuItem.Name = "ProgramSPBUToolStripMenuItem"
+        Me.ProgramSPBUToolStripMenuItem.Size = New System.Drawing.Size(362, 26)
+        Me.ProgramSPBUToolStripMenuItem.Text = "Program SPBU"
+        '
+        'PrulanganForNext01ToolStripMenuItem
+        '
+        Me.PrulanganForNext01ToolStripMenuItem.Name = "PrulanganForNext01ToolStripMenuItem"
+        Me.PrulanganForNext01ToolStripMenuItem.Size = New System.Drawing.Size(280, 26)
+        Me.PrulanganForNext01ToolStripMenuItem.Text = "Perulangan For-Next 01"
+        '
+        'PerulanganForNext02ToolStripMenuItem
+        '
+        Me.PerulanganForNext02ToolStripMenuItem.Name = "PerulanganForNext02ToolStripMenuItem"
+        Me.PerulanganForNext02ToolStripMenuItem.Size = New System.Drawing.Size(280, 26)
+        Me.PerulanganForNext02ToolStripMenuItem.Text = "Perulangan For-Next 02"
+        '
+        'PerulanganForNext03ToolStripMenuItem
+        '
+        Me.PerulanganForNext03ToolStripMenuItem.Name = "PerulanganForNext03ToolStripMenuItem"
+        Me.PerulanganForNext03ToolStripMenuItem.Size = New System.Drawing.Size(280, 26)
+        Me.PerulanganForNext03ToolStripMenuItem.Text = "Perulangan For-Next 03"
+        '
+        'PerulanganForNext04ToolStripMenuItem
+        '
+        Me.PerulanganForNext04ToolStripMenuItem.Name = "PerulanganForNext04ToolStripMenuItem"
+        Me.PerulanganForNext04ToolStripMenuItem.Size = New System.Drawing.Size(280, 26)
+        Me.PerulanganForNext04ToolStripMenuItem.Text = "Perulangan For-Next 04"
+        '
+        'PerulanganDoWhileLoopToolStripMenuItem
+        '
+        Me.PerulanganDoWhileLoopToolStripMenuItem.Name = "PerulanganDoWhileLoopToolStripMenuItem"
+        Me.PerulanganDoWhileLoopToolStripMenuItem.Size = New System.Drawing.Size(280, 26)
+        Me.PerulanganDoWhileLoopToolStripMenuItem.Text = "Perulangan Do While-Loop"
+        '
+        'PerulanganDOUntilLoopToolStripMenuItem
+        '
+        Me.PerulanganDOUntilLoopToolStripMenuItem.Name = "PerulanganDOUntilLoopToolStripMenuItem"
+        Me.PerulanganDOUntilLoopToolStripMenuItem.Size = New System.Drawing.Size(280, 26)
+        Me.PerulanganDOUntilLoopToolStripMenuItem.Text = "Perulangan Do Until-Loop"
+        '
+        'PerulanganWhileEndWhileToolStripMenuItem
+        '
+        Me.PerulanganWhileEndWhileToolStripMenuItem.Name = "PerulanganWhileEndWhileToolStripMenuItem"
+        Me.PerulanganWhileEndWhileToolStripMenuItem.Size = New System.Drawing.Size(280, 26)
+        Me.PerulanganWhileEndWhileToolStripMenuItem.Text = "Perulangan While-End While"
+        '
+        'Latihan1ToolStripMenuItem
+        '
+        Me.Latihan1ToolStripMenuItem.Name = "Latihan1ToolStripMenuItem"
+        Me.Latihan1ToolStripMenuItem.Size = New System.Drawing.Size(280, 26)
+        Me.Latihan1ToolStripMenuItem.Text = "Latihan 1"
+        '
         'Menu_Form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -227,4 +334,19 @@ Partial Class Menu_Form
     Friend WithEvents NestedIfToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EntryDataMahasiswaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PercabanganIfToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SelectCase01ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SelectCase02ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SelectCase03ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SelectCase04ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PenghitunganGajiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ProgramSPBUToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PrulanganForNext01ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PerulanganForNext02ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PerulanganForNext03ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PerulanganForNext04ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PerulanganDoWhileLoopToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PerulanganDOUntilLoopToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PerulanganWhileEndWhileToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Latihan1ToolStripMenuItem As ToolStripMenuItem
 End Class

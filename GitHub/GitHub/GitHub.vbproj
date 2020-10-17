@@ -214,6 +214,54 @@
     <Compile Include="pertemuan_04\select_case_04.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="pertemuan_05\latihan_1.Designer.vb">
+      <DependentUpon>latihan_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_05\latihan_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_do_until-loop.Designer.vb">
+      <DependentUpon>perulangan_do_until-loop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_do_until-loop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_do_while-loop.Designer.vb">
+      <DependentUpon>perulangan_do_while-loop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_do_while-loop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_for-next_01.Designer.vb">
+      <DependentUpon>perulangan_for-next_01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_for-next_01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_for-next_02.Designer.vb">
+      <DependentUpon>perulangan_for-next_02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_for-next_02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_for-next_03.Designer.vb">
+      <DependentUpon>perulangan_for-next_03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_for-next_03.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_for-next_04.Designer.vb">
+      <DependentUpon>perulangan_for-next_04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_for-next_04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_while-end_while.Designer.vb">
+      <DependentUpon>perulangan_while-end_while.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_05\perulangan_while-end_while.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="pertemuan_01\hello_world.resx">
@@ -284,6 +332,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pertemuan_04\select_case_04.resx">
       <DependentUpon>select_case_04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_05\latihan_1.resx">
+      <DependentUpon>latihan_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_05\perulangan_do_until-loop.resx">
+      <DependentUpon>perulangan_do_until-loop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_05\perulangan_do_while-loop.resx">
+      <DependentUpon>perulangan_do_while-loop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_05\perulangan_for-next_01.resx">
+      <DependentUpon>perulangan_for-next_01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_05\perulangan_for-next_02.resx">
+      <DependentUpon>perulangan_for-next_02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_05\perulangan_for-next_03.resx">
+      <DependentUpon>perulangan_for-next_03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_05\perulangan_for-next_04.resx">
+      <DependentUpon>perulangan_for-next_04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_05\perulangan_while-end_while.resx">
+      <DependentUpon>perulangan_while-end_while.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

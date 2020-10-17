@@ -6,4 +6,5 @@
     Private Sub OperatorRelasiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OperatorRelasiToolStripMenuItem.Click
         operator_relasi.ShowDialog()
     End Sub
+
 End Class
