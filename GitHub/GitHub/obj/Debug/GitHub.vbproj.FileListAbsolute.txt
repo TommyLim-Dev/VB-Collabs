@@ -14,7 +14,6 @@ C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cach
 C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.exe
 C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.xml
 C:\Github\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.pdb
-C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cache
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.hello_world.resources
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Menu_Form.resources
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Resources.resources
@@ -46,3 +45,7 @@ D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHu
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.pdb
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cache
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data.resources
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data_2.resources
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form1.resources
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_2.resources
+C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_relasi.resources
