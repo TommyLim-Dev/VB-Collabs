@@ -37,6 +37,13 @@ Partial Class Menu_Form
         Me.Pertemuan5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Pertemuan6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Pertemuan8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IfThenElseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CheckboxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RadioButtonToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ComboBoxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NestedIfToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EntryDataMahasiswaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PercabanganIfToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -61,7 +68,7 @@ Partial Class Menu_Form
         'Tugas1ToolStripMenuItem
         '
         Me.Tugas1ToolStripMenuItem.Name = "Tugas1ToolStripMenuItem"
-        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(172, 26)
         Me.Tugas1ToolStripMenuItem.Text = "Hello World"
         '
         'Pertemuan2ToolStripMenuItem
@@ -109,6 +116,7 @@ Partial Class Menu_Form
         '
         'Pertemuan3ToolStripMenuItem
         '
+        Me.Pertemuan3ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IfThenElseToolStripMenuItem, Me.CheckboxToolStripMenuItem, Me.RadioButtonToolStripMenuItem, Me.ComboBoxToolStripMenuItem, Me.NestedIfToolStripMenuItem, Me.EntryDataMahasiswaToolStripMenuItem, Me.PercabanganIfToolStripMenuItem})
         Me.Pertemuan3ToolStripMenuItem.Name = "Pertemuan3ToolStripMenuItem"
         Me.Pertemuan3ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
         Me.Pertemuan3ToolStripMenuItem.Text = "Pertemuan 3"
@@ -136,6 +144,48 @@ Partial Class Menu_Form
         Me.Pertemuan8ToolStripMenuItem.Name = "Pertemuan8ToolStripMenuItem"
         Me.Pertemuan8ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
         Me.Pertemuan8ToolStripMenuItem.Text = "Pertemuan 8"
+        '
+        'IfThenElseToolStripMenuItem
+        '
+        Me.IfThenElseToolStripMenuItem.Name = "IfThenElseToolStripMenuItem"
+        Me.IfThenElseToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.IfThenElseToolStripMenuItem.Text = "If - Then - Else"
+        '
+        'CheckboxToolStripMenuItem
+        '
+        Me.CheckboxToolStripMenuItem.Name = "CheckboxToolStripMenuItem"
+        Me.CheckboxToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.CheckboxToolStripMenuItem.Text = "CheckBox"
+        '
+        'RadioButtonToolStripMenuItem
+        '
+        Me.RadioButtonToolStripMenuItem.Name = "RadioButtonToolStripMenuItem"
+        Me.RadioButtonToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.RadioButtonToolStripMenuItem.Text = "RadioButton"
+        '
+        'ComboBoxToolStripMenuItem
+        '
+        Me.ComboBoxToolStripMenuItem.Name = "ComboBoxToolStripMenuItem"
+        Me.ComboBoxToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.ComboBoxToolStripMenuItem.Text = "ComboBox"
+        '
+        'NestedIfToolStripMenuItem
+        '
+        Me.NestedIfToolStripMenuItem.Name = "NestedIfToolStripMenuItem"
+        Me.NestedIfToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.NestedIfToolStripMenuItem.Text = "Nested If"
+        '
+        'EntryDataMahasiswaToolStripMenuItem
+        '
+        Me.EntryDataMahasiswaToolStripMenuItem.Name = "EntryDataMahasiswaToolStripMenuItem"
+        Me.EntryDataMahasiswaToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.EntryDataMahasiswaToolStripMenuItem.Text = "Entry Data Mahasiswa"
+        '
+        'PercabanganIfToolStripMenuItem
+        '
+        Me.PercabanganIfToolStripMenuItem.Name = "PercabanganIfToolStripMenuItem"
+        Me.PercabanganIfToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.PercabanganIfToolStripMenuItem.Text = "Percabangan If"
         '
         'Menu_Form
         '
@@ -170,4 +220,11 @@ Partial Class Menu_Form
     Friend WithEvents Operator2ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ConvertTIpeDataToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ConvertTipeData2ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents IfThenElseToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CheckboxToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RadioButtonToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ComboBoxToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NestedIfToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EntryDataMahasiswaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PercabanganIfToolStripMenuItem As ToolStripMenuItem
 End Class

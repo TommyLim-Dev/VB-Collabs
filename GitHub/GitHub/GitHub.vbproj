@@ -130,6 +130,90 @@
     <Compile Include="pertemuan_02\operator_relasi.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="pertemuan_03\checkbox.Designer.vb">
+      <DependentUpon>checkbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_03\checkbox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_03\combobox.Designer.vb">
+      <DependentUpon>combobox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_03\combobox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_03\entry_data_mahasiswa.Designer.vb">
+      <DependentUpon>entry_data_mahasiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_03\entry_data_mahasiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_03\if-then-else.Designer.vb">
+      <DependentUpon>if-then-else.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_03\if-then-else.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_03\nested-if.Designer.vb">
+      <DependentUpon>nested-if.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_03\nested-if.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_03\percabangan_if.Designer.vb">
+      <DependentUpon>percabangan_if.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_03\percabangan_if.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_03\radiobutton.Designer.vb">
+      <DependentUpon>radiobutton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_03\radiobutton.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_04\penghitungan_gaji.Designer.vb">
+      <DependentUpon>penghitungan_gaji.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_04\penghitungan_gaji.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_04\penghitungan_nilai_akhir_dan_penentuan_grade.Designer.vb">
+      <DependentUpon>penghitungan_nilai_akhir_dan_penentuan_grade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_04\penghitungan_nilai_akhir_dan_penentuan_grade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_04\program_spbu.Designer.vb">
+      <DependentUpon>program_spbu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_04\program_spbu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_04\select_case_01.Designer.vb">
+      <DependentUpon>select_case_01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_04\select_case_01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_04\select_case_02.Designer.vb">
+      <DependentUpon>select_case_02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_04\select_case_02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_04\select_case_03.Designer.vb">
+      <DependentUpon>select_case_03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_04\select_case_03.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_04\select_case_04.Designer.vb">
+      <DependentUpon>select_case_04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_04\select_case_04.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="pertemuan_01\hello_world.resx">
@@ -159,6 +243,48 @@
     <EmbeddedResource Include="pertemuan_02\operator_relasi.resx">
       <DependentUpon>operator_relasi.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_03\checkbox.resx">
+      <DependentUpon>checkbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_03\combobox.resx">
+      <DependentUpon>combobox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_03\entry_data_mahasiswa.resx">
+      <DependentUpon>entry_data_mahasiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_03\if-then-else.resx">
+      <DependentUpon>if-then-else.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_03\nested-if.resx">
+      <DependentUpon>nested-if.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_03\percabangan_if.resx">
+      <DependentUpon>percabangan_if.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_03\radiobutton.resx">
+      <DependentUpon>radiobutton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_04\penghitungan_gaji.resx">
+      <DependentUpon>penghitungan_gaji.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_04\penghitungan_nilai_akhir_dan_penentuan_grade.resx">
+      <DependentUpon>penghitungan_nilai_akhir_dan_penentuan_grade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_04\program_spbu.resx">
+      <DependentUpon>program_spbu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_04\select_case_01.resx">
+      <DependentUpon>select_case_01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_04\select_case_02.resx">
+      <DependentUpon>select_case_02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_04\select_case_03.resx">
+      <DependentUpon>select_case_03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_04\select_case_04.resx">
+      <DependentUpon>select_case_04.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
@@ -172,8 +298,6 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
