@@ -177,7 +177,7 @@ Partial Class penghitungan_gaji
         Me.Button2.Text = "Proses"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Form1
+        'penghitungan_gaji
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -198,7 +198,8 @@ Partial Class penghitungan_gaji
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.Name = "penghitungan_gaji"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

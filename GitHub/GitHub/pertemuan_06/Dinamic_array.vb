@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Dinamic_Array
     Private Structure DataMahasiswa
         Dim nama As String
         Dim Nomor As String

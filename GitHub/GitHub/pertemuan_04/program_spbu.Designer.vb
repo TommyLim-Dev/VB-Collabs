@@ -214,7 +214,7 @@ Partial Class program_spbu
         Me.Label10.TabIndex = 8
         Me.Label10.Text = ": "
         '
-        'Form1
+        'program_spbu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -228,7 +228,8 @@ Partial Class program_spbu
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "Form1"
+        Me.Name = "program_spbu"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Program SPBU"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

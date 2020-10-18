@@ -140,6 +140,7 @@ Partial Class Maskapai_Penerbangan
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Maskapai_Penerbangan"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Maskapai_Penerbangan"
         Me.ResumeLayout(False)
         Me.PerformLayout()

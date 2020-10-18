@@ -97,7 +97,7 @@ Partial Class select_case_02
         Me.TextBox3.Size = New System.Drawing.Size(144, 22)
         Me.TextBox3.TabIndex = 7
         '
-        'Form1
+        'select_case_02
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -110,7 +110,8 @@ Partial Class select_case_02
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ComboBox1)
-        Me.Name = "Form1"
+        Me.Name = "select_case_02"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

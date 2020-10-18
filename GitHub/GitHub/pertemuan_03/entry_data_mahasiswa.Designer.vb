@@ -23,6 +23,12 @@ Partial Class entry_data_mahasiswa
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -30,12 +36,6 @@ Partial Class entry_data_mahasiswa
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -58,6 +58,59 @@ Partial Class entry_data_mahasiswa
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(373, 314)
         Me.Panel1.TabIndex = 7
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(202, 137)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(73, 21)
+        Me.RadioButton2.TabIndex = 19
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Wanita"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(131, 137)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(54, 21)
+        Me.RadioButton1.TabIndex = 18
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Pria"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(131, 101)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(173, 24)
+        Me.ComboBox1.TabIndex = 17
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(202, 174)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(102, 28)
+        Me.Button1.TabIndex = 16
+        Me.Button1.Text = "Proses"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(131, 73)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(173, 22)
+        Me.TextBox2.TabIndex = 15
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(131, 45)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(173, 22)
+        Me.TextBox1.TabIndex = 14
         '
         'Label7
         '
@@ -119,66 +172,14 @@ Partial Class entry_data_mahasiswa
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "NIM"
         '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(131, 45)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(173, 22)
-        Me.TextBox1.TabIndex = 14
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(131, 73)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(173, 22)
-        Me.TextBox2.TabIndex = 15
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(202, 174)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(102, 28)
-        Me.Button1.TabIndex = 16
-        Me.Button1.Text = "Proses"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(131, 101)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(173, 24)
-        Me.ComboBox1.TabIndex = 17
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(131, 137)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(54, 21)
-        Me.RadioButton1.TabIndex = 18
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Pria"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(202, 137)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(73, 21)
-        Me.RadioButton2.TabIndex = 19
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Wanita"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'Form1
+        'entry_data_mahasiswa
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "Form1"
+        Me.Name = "entry_data_mahasiswa"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Entry Data Mahasiswa"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

@@ -1,4 +1,4 @@
-﻿Public Class combobox
+﻿Public Class comboboxs
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
         If ComboBox1.Text = "Paket 1" Then
             GroupBox1.Text = ComboBox1.Text

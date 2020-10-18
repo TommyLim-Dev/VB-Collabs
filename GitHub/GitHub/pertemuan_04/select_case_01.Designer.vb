@@ -66,7 +66,7 @@ Partial Class select_case_01
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Ket"
         '
-        'Form1
+        'select_case_01
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -74,7 +74,8 @@ Partial Class select_case_01
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ListBox1)
-        Me.Name = "Form1"
+        Me.Name = "select_case_01"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

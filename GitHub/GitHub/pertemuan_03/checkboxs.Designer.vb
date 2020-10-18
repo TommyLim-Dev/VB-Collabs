@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class checkbox
+Partial Class checkboxs
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,9 +23,9 @@ Partial Class checkbox
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -42,15 +42,15 @@ Partial Class checkbox
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Makanan Favorit"
         '
-        'CheckBox1
+        'CheckBox3
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(33, 38)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(59, 21)
-        Me.CheckBox1.TabIndex = 0
-        Me.CheckBox1.Text = "Sate"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(33, 92)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(60, 21)
+        Me.CheckBox3.TabIndex = 2
+        Me.CheckBox3.Text = "Kare"
+        Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'CheckBox2
         '
@@ -62,15 +62,15 @@ Partial Class checkbox
         Me.CheckBox2.Text = "Soto"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
-        'CheckBox3
+        'CheckBox1
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(33, 92)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(60, 21)
-        Me.CheckBox3.TabIndex = 2
-        Me.CheckBox3.Text = "Kare"
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(33, 38)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(59, 21)
+        Me.CheckBox1.TabIndex = 0
+        Me.CheckBox1.Text = "Sate"
+        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -81,14 +81,15 @@ Partial Class checkbox
         Me.Button1.Text = "Tampilkan Pilihan"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Form1
+        'checkboxs
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "Form1"
+        Me.Name = "checkboxs"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Checkbox"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

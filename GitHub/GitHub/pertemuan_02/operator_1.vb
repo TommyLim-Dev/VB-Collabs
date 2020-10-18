@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class operator_1
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         hasil.Text = Val(pertama.Text) - Val(kedua.Text)
     End Sub

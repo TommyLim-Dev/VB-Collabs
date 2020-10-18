@@ -112,10 +112,10 @@
     <Compile Include="pertemuan_02\convert_tipe_data_2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pertemuan_02\operator.designer.vb">
-      <DependentUpon>operator.vb</DependentUpon>
+    <Compile Include="pertemuan_02\operator_1.designer.vb">
+      <DependentUpon>operator_1.vb</DependentUpon>
     </Compile>
-    <Compile Include="pertemuan_02\operator.vb">
+    <Compile Include="pertemuan_02\operator_1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="pertemuan_02\operator_2.designer.vb">
@@ -130,16 +130,16 @@
     <Compile Include="pertemuan_02\operator_relasi.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pertemuan_03\checkbox.Designer.vb">
-      <DependentUpon>checkbox.vb</DependentUpon>
+    <Compile Include="pertemuan_03\checkboxs.Designer.vb">
+      <DependentUpon>checkboxs.vb</DependentUpon>
     </Compile>
-    <Compile Include="pertemuan_03\checkbox.vb">
+    <Compile Include="pertemuan_03\checkboxs.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pertemuan_03\combobox.Designer.vb">
-      <DependentUpon>combobox.vb</DependentUpon>
+    <Compile Include="pertemuan_03\comboboxs.Designer.vb">
+      <DependentUpon>comboboxs.vb</DependentUpon>
     </Compile>
-    <Compile Include="pertemuan_03\combobox.vb">
+    <Compile Include="pertemuan_03\comboboxs.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="pertemuan_03\entry_data_mahasiswa.Designer.vb">
@@ -166,10 +166,10 @@
     <Compile Include="pertemuan_03\percabangan_if.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pertemuan_03\radiobutton.Designer.vb">
-      <DependentUpon>radiobutton.vb</DependentUpon>
+    <Compile Include="pertemuan_03\radiobuttons.Designer.vb">
+      <DependentUpon>radiobuttons.vb</DependentUpon>
     </Compile>
-    <Compile Include="pertemuan_03\radiobutton.vb">
+    <Compile Include="pertemuan_03\radiobuttons.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="pertemuan_04\penghitungan_gaji.Designer.vb">
@@ -262,6 +262,36 @@
     <Compile Include="pertemuan_05\perulangan_while-end_while.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="pertemuan_06\Array-Combobox.Designer.vb">
+      <DependentUpon>Array-Combobox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_06\Array-Combobox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_06\Dinamic_array.Designer.vb">
+      <DependentUpon>Dinamic_array.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_06\Dinamic_array.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_06\Kota_Tujuan.Designer.vb">
+      <DependentUpon>Kota_Tujuan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_06\Kota_Tujuan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_06\Maskapai_Penerbangan.Designer.vb">
+      <DependentUpon>Maskapai_Penerbangan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_06\Maskapai_Penerbangan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_06\Penjualan_Barang.Designer.vb">
+      <DependentUpon>Penjualan_Barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_06\Penjualan_Barang.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="pertemuan_01\hello_world.resx">
@@ -282,8 +312,8 @@
     <EmbeddedResource Include="pertemuan_02\convert_tipe_data_2.resx">
       <DependentUpon>convert_tipe_data_2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pertemuan_02\operator.resx">
-      <DependentUpon>operator.vb</DependentUpon>
+    <EmbeddedResource Include="pertemuan_02\operator_1.resx">
+      <DependentUpon>operator_1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pertemuan_02\operator_2.resx">
       <DependentUpon>operator_2.vb</DependentUpon>
@@ -291,11 +321,11 @@
     <EmbeddedResource Include="pertemuan_02\operator_relasi.resx">
       <DependentUpon>operator_relasi.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pertemuan_03\checkbox.resx">
-      <DependentUpon>checkbox.vb</DependentUpon>
+    <EmbeddedResource Include="pertemuan_03\checkboxs.resx">
+      <DependentUpon>checkboxs.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pertemuan_03\combobox.resx">
-      <DependentUpon>combobox.vb</DependentUpon>
+    <EmbeddedResource Include="pertemuan_03\comboboxs.resx">
+      <DependentUpon>comboboxs.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pertemuan_03\entry_data_mahasiswa.resx">
       <DependentUpon>entry_data_mahasiswa.vb</DependentUpon>
@@ -309,8 +339,8 @@
     <EmbeddedResource Include="pertemuan_03\percabangan_if.resx">
       <DependentUpon>percabangan_if.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pertemuan_03\radiobutton.resx">
-      <DependentUpon>radiobutton.vb</DependentUpon>
+    <EmbeddedResource Include="pertemuan_03\radiobuttons.resx">
+      <DependentUpon>radiobuttons.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pertemuan_04\penghitungan_gaji.resx">
       <DependentUpon>penghitungan_gaji.vb</DependentUpon>
@@ -356,6 +386,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pertemuan_05\perulangan_while-end_while.resx">
       <DependentUpon>perulangan_while-end_while.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_06\Array-Combobox.resx">
+      <DependentUpon>Array-Combobox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_06\Dinamic_array.resx">
+      <DependentUpon>Dinamic_array.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_06\Kota_Tujuan.resx">
+      <DependentUpon>Kota_Tujuan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_06\Maskapai_Penerbangan.resx">
+      <DependentUpon>Maskapai_Penerbangan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_06\Penjualan_Barang.resx">
+      <DependentUpon>Penjualan_Barang.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

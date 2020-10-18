@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class for_next_3
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim a As VariantType
         For a = 1 To 31

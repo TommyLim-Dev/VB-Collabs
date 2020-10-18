@@ -24,14 +24,14 @@ Partial Class penghitungan_nilai_akhir_dan_penentuan_grade
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
@@ -61,14 +61,35 @@ Partial Class penghitungan_nilai_akhir_dan_penentuan_grade
         Me.Panel1.Size = New System.Drawing.Size(233, 175)
         Me.Panel1.TabIndex = 1
         '
-        'Label2
+        'TextBox3
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(26, 31)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(79, 17)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Nilai Tugas"
+        Me.TextBox3.Location = New System.Drawing.Point(111, 114)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox3.TabIndex = 5
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(111, 68)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox2.TabIndex = 4
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(111, 26)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox1.TabIndex = 3
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(26, 119)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(67, 17)
+        Me.Label4.TabIndex = 2
+        Me.Label4.Text = "Nilai UAS"
         '
         'Label3
         '
@@ -79,14 +100,14 @@ Partial Class penghitungan_nilai_akhir_dan_penentuan_grade
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Nilai UTS"
         '
-        'Label4
+        'Label2
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(26, 119)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(67, 17)
-        Me.Label4.TabIndex = 2
-        Me.Label4.Text = "Nilai UAS"
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(26, 31)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(79, 17)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Nilai Tugas"
         '
         'Label5
         '
@@ -105,27 +126,6 @@ Partial Class penghitungan_nilai_akhir_dan_penentuan_grade
         Me.Label6.Size = New System.Drawing.Size(48, 17)
         Me.Label6.TabIndex = 3
         Me.Label6.Text = "Grade"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(111, 26)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 3
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(111, 68)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox2.TabIndex = 4
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(111, 114)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox3.TabIndex = 5
         '
         'Button1
         '
@@ -152,7 +152,7 @@ Partial Class penghitungan_nilai_akhir_dan_penentuan_grade
         Me.TextBox5.Size = New System.Drawing.Size(100, 22)
         Me.TextBox5.TabIndex = 6
         '
-        'Form1
+        'penghitungan_nilai_akhir_dan_penentuan_grade
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -164,7 +164,8 @@ Partial Class penghitungan_nilai_akhir_dan_penentuan_grade
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.Name = "penghitungan_nilai_akhir_dan_penentuan_grade"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

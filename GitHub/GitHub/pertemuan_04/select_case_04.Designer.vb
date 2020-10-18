@@ -72,7 +72,7 @@ Partial Class select_case_04
         Me.Button1.Text = "Proses"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Form1
+        'select_case_04
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -82,7 +82,8 @@ Partial Class select_case_04
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.Name = "select_case_04"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()

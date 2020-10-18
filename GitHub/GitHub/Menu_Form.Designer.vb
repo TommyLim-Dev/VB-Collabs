@@ -46,11 +46,9 @@ Partial Class Menu_Form
         Me.SelectCase03ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SelectCase04ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Pertemuan5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Pertemuan6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Pertemuan8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PenghitunganGajiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProgramSPBUToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan5ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PrulanganForNext01ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PerulanganForNext02ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PerulanganForNext03ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -59,6 +57,13 @@ Partial Class Menu_Form
         Me.PerulanganDOUntilLoopToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PerulanganWhileEndWhileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Latihan1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ArrayComboboxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DinamicArrayToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KotaTujuanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MaskapaiPenerbanganToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PenjualanBarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -83,7 +88,7 @@ Partial Class Menu_Form
         'Tugas1ToolStripMenuItem
         '
         Me.Tugas1ToolStripMenuItem.Name = "Tugas1ToolStripMenuItem"
-        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.Tugas1ToolStripMenuItem.Size = New System.Drawing.Size(172, 26)
         Me.Tugas1ToolStripMenuItem.Text = "Hello World"
         '
         'Pertemuan2ToolStripMenuItem
@@ -215,25 +220,6 @@ Partial Class Menu_Form
         Me.PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem.Size = New System.Drawing.Size(362, 26)
         Me.PenhitunganNilaiAkhirDanPenentuanGradeToolStripMenuItem.Text = "Penghitungan Nilai dan Penentuan Grade"
         '
-        'Pertemuan5ToolStripMenuItem
-        '
-        Me.Pertemuan5ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PrulanganForNext01ToolStripMenuItem, Me.PerulanganForNext02ToolStripMenuItem, Me.PerulanganForNext03ToolStripMenuItem, Me.PerulanganForNext04ToolStripMenuItem, Me.PerulanganDoWhileLoopToolStripMenuItem, Me.PerulanganDOUntilLoopToolStripMenuItem, Me.PerulanganWhileEndWhileToolStripMenuItem, Me.Latihan1ToolStripMenuItem})
-        Me.Pertemuan5ToolStripMenuItem.Name = "Pertemuan5ToolStripMenuItem"
-        Me.Pertemuan5ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
-        Me.Pertemuan5ToolStripMenuItem.Text = "Pertemuan 5"
-        '
-        'Pertemuan6ToolStripMenuItem
-        '
-        Me.Pertemuan6ToolStripMenuItem.Name = "Pertemuan6ToolStripMenuItem"
-        Me.Pertemuan6ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
-        Me.Pertemuan6ToolStripMenuItem.Text = "Pertemuan 6"
-        '
-        'Pertemuan8ToolStripMenuItem
-        '
-        Me.Pertemuan8ToolStripMenuItem.Name = "Pertemuan8ToolStripMenuItem"
-        Me.Pertemuan8ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
-        Me.Pertemuan8ToolStripMenuItem.Text = "Pertemuan 8"
-        '
         'PenghitunganGajiToolStripMenuItem
         '
         Me.PenghitunganGajiToolStripMenuItem.Name = "PenghitunganGajiToolStripMenuItem"
@@ -245,6 +231,13 @@ Partial Class Menu_Form
         Me.ProgramSPBUToolStripMenuItem.Name = "ProgramSPBUToolStripMenuItem"
         Me.ProgramSPBUToolStripMenuItem.Size = New System.Drawing.Size(362, 26)
         Me.ProgramSPBUToolStripMenuItem.Text = "Program SPBU"
+        '
+        'Pertemuan5ToolStripMenuItem
+        '
+        Me.Pertemuan5ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PrulanganForNext01ToolStripMenuItem, Me.PerulanganForNext02ToolStripMenuItem, Me.PerulanganForNext03ToolStripMenuItem, Me.PerulanganForNext04ToolStripMenuItem, Me.PerulanganDoWhileLoopToolStripMenuItem, Me.PerulanganDOUntilLoopToolStripMenuItem, Me.PerulanganWhileEndWhileToolStripMenuItem, Me.Latihan1ToolStripMenuItem})
+        Me.Pertemuan5ToolStripMenuItem.Name = "Pertemuan5ToolStripMenuItem"
+        Me.Pertemuan5ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan5ToolStripMenuItem.Text = "Pertemuan 5"
         '
         'PrulanganForNext01ToolStripMenuItem
         '
@@ -293,6 +286,49 @@ Partial Class Menu_Form
         Me.Latihan1ToolStripMenuItem.Name = "Latihan1ToolStripMenuItem"
         Me.Latihan1ToolStripMenuItem.Size = New System.Drawing.Size(280, 26)
         Me.Latihan1ToolStripMenuItem.Text = "Latihan 1"
+        '
+        'Pertemuan6ToolStripMenuItem
+        '
+        Me.Pertemuan6ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArrayComboboxToolStripMenuItem, Me.DinamicArrayToolStripMenuItem, Me.KotaTujuanToolStripMenuItem, Me.MaskapaiPenerbanganToolStripMenuItem, Me.PenjualanBarangToolStripMenuItem})
+        Me.Pertemuan6ToolStripMenuItem.Name = "Pertemuan6ToolStripMenuItem"
+        Me.Pertemuan6ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan6ToolStripMenuItem.Text = "Pertemuan 6"
+        '
+        'Pertemuan8ToolStripMenuItem
+        '
+        Me.Pertemuan8ToolStripMenuItem.Name = "Pertemuan8ToolStripMenuItem"
+        Me.Pertemuan8ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan8ToolStripMenuItem.Text = "Pertemuan 8"
+        '
+        'ArrayComboboxToolStripMenuItem
+        '
+        Me.ArrayComboboxToolStripMenuItem.Name = "ArrayComboboxToolStripMenuItem"
+        Me.ArrayComboboxToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ArrayComboboxToolStripMenuItem.Text = "Array Combobox"
+        '
+        'DinamicArrayToolStripMenuItem
+        '
+        Me.DinamicArrayToolStripMenuItem.Name = "DinamicArrayToolStripMenuItem"
+        Me.DinamicArrayToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
+        Me.DinamicArrayToolStripMenuItem.Text = "Dinamic Array"
+        '
+        'KotaTujuanToolStripMenuItem
+        '
+        Me.KotaTujuanToolStripMenuItem.Name = "KotaTujuanToolStripMenuItem"
+        Me.KotaTujuanToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
+        Me.KotaTujuanToolStripMenuItem.Text = "Kota Tujuan"
+        '
+        'MaskapaiPenerbanganToolStripMenuItem
+        '
+        Me.MaskapaiPenerbanganToolStripMenuItem.Name = "MaskapaiPenerbanganToolStripMenuItem"
+        Me.MaskapaiPenerbanganToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
+        Me.MaskapaiPenerbanganToolStripMenuItem.Text = "Maskapai Penerbangan"
+        '
+        'PenjualanBarangToolStripMenuItem
+        '
+        Me.PenjualanBarangToolStripMenuItem.Name = "PenjualanBarangToolStripMenuItem"
+        Me.PenjualanBarangToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
+        Me.PenjualanBarangToolStripMenuItem.Text = "Penjualan Barang"
         '
         'Menu_Form
         '
@@ -349,4 +385,9 @@ Partial Class Menu_Form
     Friend WithEvents PerulanganDOUntilLoopToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PerulanganWhileEndWhileToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Latihan1ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ArrayComboboxToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents DinamicArrayToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents KotaTujuanToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MaskapaiPenerbanganToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PenjualanBarangToolStripMenuItem As ToolStripMenuItem
 End Class
