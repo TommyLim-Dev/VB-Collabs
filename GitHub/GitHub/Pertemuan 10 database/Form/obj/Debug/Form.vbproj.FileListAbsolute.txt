@@ -1,0 +1,13 @@
+D:\Naruto Shippuuden\Form\Form\bin\Debug\Form.exe.config
+D:\Naruto Shippuuden\Form\Form\bin\Debug\Form.exe
+D:\Naruto Shippuuden\Form\Form\bin\Debug\Form.pdb
+D:\Naruto Shippuuden\Form\Form\bin\Debug\Form.xml
+D:\Naruto Shippuuden\Form\Form\obj\Debug\Form.vbprojAssemblyReference.cache
+D:\Naruto Shippuuden\Form\Form\obj\Debug\Form.Form1.resources
+D:\Naruto Shippuuden\Form\Form\obj\Debug\Form.Resources.resources
+D:\Naruto Shippuuden\Form\Form\obj\Debug\Form.vbproj.GenerateResource.cache
+D:\Naruto Shippuuden\Form\Form\obj\Debug\Form.vbproj.CoreCompileInputs.cache
+D:\Naruto Shippuuden\Form\Form\obj\Debug\Form.exe
+D:\Naruto Shippuuden\Form\Form\obj\Debug\Form.xml
+D:\Naruto Shippuuden\Form\Form\obj\Debug\Form.pdb
+D:\Naruto Shippuuden\Form\Form\obj\Debug\Form.Form2.resources
