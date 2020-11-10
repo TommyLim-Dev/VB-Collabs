@@ -75,4 +75,13 @@ D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHu
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Penjualan_Barang.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.for_next_2.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.while_end_while.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.formawal.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.poppeg2.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form1.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form2.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\Pertemuan_08\ADOGaji.accdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\pertemuan_10\DBAplikasi.accdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Formawal1.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.poppegs.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\Pertemuan_09\ADOGaji.accdb
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cache

@@ -292,6 +292,44 @@
     <Compile Include="pertemuan_06\Penjualan_Barang.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Pertemuan_08\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pertemuan_08\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pertemuan_08\Module1.vb" />
+    <Compile Include="Pertemuan_08\poppeg.Designer.vb">
+      <DependentUpon>poppeg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pertemuan_08\poppeg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pertemuan_09\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pertemuan_09\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pertemuan_09\poppeg2.Designer.vb">
+      <DependentUpon>poppeg2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pertemuan_09\poppeg2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_10\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_10\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_10\Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pertemuan_10\Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pertemuan_10\Module.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="pertemuan_01\hello_world.resx">
@@ -402,6 +440,24 @@
     <EmbeddedResource Include="pertemuan_06\Penjualan_Barang.resx">
       <DependentUpon>Penjualan_Barang.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pertemuan_08\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pertemuan_08\poppeg.resx">
+      <DependentUpon>poppeg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pertemuan_09\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pertemuan_09\poppeg2.resx">
+      <DependentUpon>poppeg2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_10\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pertemuan_10\Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
@@ -414,7 +470,18 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="Pertemuan_08\ADOGaji.laccdb" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Pertemuan_08\ADOGaji.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pertemuan_09\ADOGaji.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pertemuan_10\DBAplikasi.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

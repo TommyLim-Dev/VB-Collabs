@@ -1,7 +1,7 @@
 ﻿Imports System.Data
 Imports System.Data.OleDb
 
-Public Class Form1
+Public Class Formawal1
     Sub BERSIH()
         txtNIP.Text = ""
         txtNama.Text = ""
@@ -40,7 +40,7 @@ Public Class Form1
             Call BERSIH()
             txtNIP.Focus()
         Else
-            MsgBox ("Gagal menyimpan data", MsgBoxStyle.Information, "Kesalahan")
+            MsgBox("Gagal menyimpan data", MsgBoxStyle.Information, "Kesalahan")
         End If
 
     End Sub
@@ -64,7 +64,7 @@ Public Class Form1
     End Sub
 
     Private Sub BCari_Click(sender As Object, e As EventArgs) Handles BCari.Click
-        Dim popppegawai As New poppeg
+        Dim popppegawai As New poppegs
         popppegawai.ShowDialog()
         If popppegawai.colNama <> "" Then
             txtNIP.Text = popppegawai.colNIP

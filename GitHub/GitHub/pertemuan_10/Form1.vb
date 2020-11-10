@@ -7,8 +7,8 @@ Public Class Form1
 
     Private Sub Blogin_Click(sender As Object, e As EventArgs) Handles Blogin.Click
 
-        If CNN.State <> ConnectionState.Closed Then CNN.Close()
-        CNN.Open()
+        If CNN1.State <> ConnectionState.Closed Then CNN1.Close()
+        CNN1.Open()
         Dim OLECMD As OleDbCommand = New OleDbCommand("Select * FROM login WHERE username = '" & TextBox1.Text & "' and Password = '" & TextBox2.Text & "' ", CNN)
         Dim OLERDR As OleDbDataReader = OLECMD.ExecuteReader
         If (OLERDR.Read()) Then

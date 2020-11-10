@@ -1,6 +1,6 @@
 ﻿Imports System.Data.OleDb
 Imports System.Data
-Public Class poppeg
+Public Class poppeg2
 
     Private Sub clear_list()
 

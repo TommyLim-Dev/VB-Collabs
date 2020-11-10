@@ -37,10 +37,12 @@ Partial Class Form2
         '
         'MenuStrip1
         '
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterToolStripMenuItem, Me.TransaksiToolStripMenuItem, Me.LaporanToolStripMenuItem, Me.UtilityToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1067, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -48,58 +50,61 @@ Partial Class Form2
         '
         Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PetugasToolStripMenuItem, Me.AnggotaToolStripMenuItem, Me.FilmToolStripMenuItem})
         Me.MasterToolStripMenuItem.Name = "MasterToolStripMenuItem"
-        Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
+        Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(68, 24)
         Me.MasterToolStripMenuItem.Text = "Master"
         '
         'PetugasToolStripMenuItem
         '
         Me.PetugasToolStripMenuItem.Name = "PetugasToolStripMenuItem"
-        Me.PetugasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PetugasToolStripMenuItem.Size = New System.Drawing.Size(150, 26)
         Me.PetugasToolStripMenuItem.Text = "Petugas"
         '
         'AnggotaToolStripMenuItem
         '
         Me.AnggotaToolStripMenuItem.Name = "AnggotaToolStripMenuItem"
-        Me.AnggotaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AnggotaToolStripMenuItem.Size = New System.Drawing.Size(150, 26)
         Me.AnggotaToolStripMenuItem.Text = "Anggota"
         '
         'FilmToolStripMenuItem
         '
         Me.FilmToolStripMenuItem.Name = "FilmToolStripMenuItem"
-        Me.FilmToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.FilmToolStripMenuItem.Size = New System.Drawing.Size(150, 26)
         Me.FilmToolStripMenuItem.Text = "Film"
         '
         'TransaksiToolStripMenuItem
         '
         Me.TransaksiToolStripMenuItem.Name = "TransaksiToolStripMenuItem"
-        Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
+        Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(82, 24)
         Me.TransaksiToolStripMenuItem.Text = "Transaksi"
         '
         'LaporanToolStripMenuItem
         '
         Me.LaporanToolStripMenuItem.Name = "LaporanToolStripMenuItem"
-        Me.LaporanToolStripMenuItem.Size = New System.Drawing.Size(62, 20)
+        Me.LaporanToolStripMenuItem.Size = New System.Drawing.Size(77, 24)
         Me.LaporanToolStripMenuItem.Text = "Laporan"
         '
         'UtilityToolStripMenuItem
         '
         Me.UtilityToolStripMenuItem.Name = "UtilityToolStripMenuItem"
-        Me.UtilityToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
+        Me.UtilityToolStripMenuItem.Size = New System.Drawing.Size(62, 24)
         Me.UtilityToolStripMenuItem.Text = "Utility"
         '
         'ContextMenuStrip1
         '
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
         '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form Menu Utama"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class poppeg
+Partial Class poppegs
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -41,26 +41,29 @@ Partial Class poppeg
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(53, 44)
+        Me.Label1.Location = New System.Drawing.Point(71, 54)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(38, 13)
+        Me.Label1.Size = New System.Drawing.Size(47, 17)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "NAMA"
         '
         'txtNama
         '
-        Me.txtNama.Location = New System.Drawing.Point(128, 44)
+        Me.txtNama.Location = New System.Drawing.Point(171, 54)
+        Me.txtNama.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtNama.Name = "txtNama"
-        Me.txtNama.Size = New System.Drawing.Size(411, 20)
+        Me.txtNama.Size = New System.Drawing.Size(547, 22)
         Me.txtNama.TabIndex = 1
         '
         'ListView1
         '
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7})
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(56, 90)
+        Me.ListView1.Location = New System.Drawing.Point(75, 111)
+        Me.ListView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(576, 153)
+        Me.ListView1.Size = New System.Drawing.Size(767, 187)
         Me.ListView1.TabIndex = 2
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -100,17 +103,19 @@ Partial Class poppeg
         '
         'counter
         '
-        Me.counter.Location = New System.Drawing.Point(56, 262)
+        Me.counter.Location = New System.Drawing.Point(75, 322)
+        Me.counter.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.counter.Name = "counter"
-        Me.counter.Size = New System.Drawing.Size(100, 20)
+        Me.counter.Size = New System.Drawing.Size(132, 22)
         Me.counter.TabIndex = 3
         Me.counter.Text = "0"
         '
         'btnOK
         '
-        Me.btnOK.Location = New System.Drawing.Point(455, 262)
+        Me.btnOK.Location = New System.Drawing.Point(607, 322)
+        Me.btnOK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnOK.Name = "btnOK"
-        Me.btnOK.Size = New System.Drawing.Size(75, 23)
+        Me.btnOK.Size = New System.Drawing.Size(100, 28)
         Me.btnOK.TabIndex = 4
         Me.btnOK.Text = "OK"
         Me.btnOK.UseVisualStyleBackColor = True
@@ -118,24 +123,26 @@ Partial Class poppeg
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(53, 19)
+        Me.Label2.Location = New System.Drawing.Point(71, 23)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(25, 13)
+        Me.Label2.Size = New System.Drawing.Size(30, 17)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "NIP"
         '
         'txtNIP
         '
-        Me.txtNIP.Location = New System.Drawing.Point(128, 12)
+        Me.txtNIP.Location = New System.Drawing.Point(171, 15)
+        Me.txtNIP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtNIP.Name = "txtNIP"
-        Me.txtNIP.Size = New System.Drawing.Size(100, 20)
+        Me.txtNIP.Size = New System.Drawing.Size(132, 22)
         Me.txtNIP.TabIndex = 6
         '
-        'poppeg
+        'poppegs
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
         Me.Controls.Add(Me.txtNIP)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.btnOK)
@@ -143,8 +150,10 @@ Partial Class poppeg
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.txtNama)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "poppeg"
-        Me.Text = "poppeg"
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Name = "poppegs"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "poppeg2"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

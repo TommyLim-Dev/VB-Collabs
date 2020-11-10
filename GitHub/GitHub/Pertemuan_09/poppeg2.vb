@@ -1,6 +1,6 @@
 ﻿Imports System.Data.OleDb
 Imports System.Data
-Public Class poppeg
+Public Class poppegs
     Public colNIP, colNama, colbgn, coltgllhr, colAlamat, colPend, colstatus As String
     Dim cnn As OleDbConnection
     Dim cmmd As OleDbCommand
@@ -17,7 +17,7 @@ Public Class poppeg
     End Sub
 
     Private Sub txtNIP_TextChanged(sender As Object, e As EventArgs) Handles txtNIP.TextChanged
-        Call List_data2()
+        Call list_data2()
     End Sub
 
     Private Sub pilih()
@@ -117,7 +117,7 @@ Public Class poppeg
             dReader.Close()
         End Try
         cnn.Close()
-        End Sub
+    End Sub
 
 
 
@@ -134,7 +134,7 @@ Public Class poppeg
         Call pilih()
     End Sub
 
-    Private Sub poppeg_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub poppeg2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call List_data()
     End Sub
 End Class

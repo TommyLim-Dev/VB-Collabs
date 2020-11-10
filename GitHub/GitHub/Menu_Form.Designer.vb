@@ -58,23 +58,31 @@ Partial Class Menu_Form
         Me.PerulanganWhileEndWhileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Latihan1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Pertemuan6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Pertemuan8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ArrayComboboxToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DinamicArrayToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KotaTujuanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MaskapaiPenerbanganToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PenjualanBarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DataPegawaiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PoppegToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DataPegawaoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PoppegToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan10ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MainMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Pertemuan1ToolStripMenuItem, Me.Pertemuan2ToolStripMenuItem, Me.Pertemuan3ToolStripMenuItem, Me.Pertemuan4ToolStripMenuItem, Me.Pertemuan5ToolStripMenuItem, Me.Pertemuan6ToolStripMenuItem, Me.Pertemuan8ToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Pertemuan1ToolStripMenuItem, Me.Pertemuan2ToolStripMenuItem, Me.Pertemuan3ToolStripMenuItem, Me.Pertemuan4ToolStripMenuItem, Me.Pertemuan5ToolStripMenuItem, Me.Pertemuan6ToolStripMenuItem, Me.Pertemuan8ToolStripMenuItem, Me.Pertemuan9ToolStripMenuItem, Me.Pertemuan10ToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(915, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1131, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -294,16 +302,10 @@ Partial Class Menu_Form
         Me.Pertemuan6ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
         Me.Pertemuan6ToolStripMenuItem.Text = "Pertemuan 6"
         '
-        'Pertemuan8ToolStripMenuItem
-        '
-        Me.Pertemuan8ToolStripMenuItem.Name = "Pertemuan8ToolStripMenuItem"
-        Me.Pertemuan8ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
-        Me.Pertemuan8ToolStripMenuItem.Text = "Pertemuan 8"
-        '
         'ArrayComboboxToolStripMenuItem
         '
         Me.ArrayComboboxToolStripMenuItem.Name = "ArrayComboboxToolStripMenuItem"
-        Me.ArrayComboboxToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ArrayComboboxToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.ArrayComboboxToolStripMenuItem.Text = "Array Combobox"
         '
         'DinamicArrayToolStripMenuItem
@@ -330,11 +332,68 @@ Partial Class Menu_Form
         Me.PenjualanBarangToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.PenjualanBarangToolStripMenuItem.Text = "Penjualan Barang"
         '
+        'Pertemuan8ToolStripMenuItem
+        '
+        Me.Pertemuan8ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DataPegawaiToolStripMenuItem, Me.PoppegToolStripMenuItem})
+        Me.Pertemuan8ToolStripMenuItem.Name = "Pertemuan8ToolStripMenuItem"
+        Me.Pertemuan8ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan8ToolStripMenuItem.Text = "Pertemuan 8"
+        '
+        'DataPegawaiToolStripMenuItem
+        '
+        Me.DataPegawaiToolStripMenuItem.Name = "DataPegawaiToolStripMenuItem"
+        Me.DataPegawaiToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.DataPegawaiToolStripMenuItem.Text = "Data Pegawai"
+        '
+        'PoppegToolStripMenuItem
+        '
+        Me.PoppegToolStripMenuItem.Name = "PoppegToolStripMenuItem"
+        Me.PoppegToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.PoppegToolStripMenuItem.Text = "Poppeg"
+        '
+        'Pertemuan9ToolStripMenuItem
+        '
+        Me.Pertemuan9ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DataPegawaoToolStripMenuItem, Me.PoppegToolStripMenuItem1})
+        Me.Pertemuan9ToolStripMenuItem.Name = "Pertemuan9ToolStripMenuItem"
+        Me.Pertemuan9ToolStripMenuItem.Size = New System.Drawing.Size(105, 24)
+        Me.Pertemuan9ToolStripMenuItem.Text = "Pertemuan 9"
+        '
+        'DataPegawaoToolStripMenuItem
+        '
+        Me.DataPegawaoToolStripMenuItem.Name = "DataPegawaoToolStripMenuItem"
+        Me.DataPegawaoToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.DataPegawaoToolStripMenuItem.Text = "Data Pegawai"
+        '
+        'PoppegToolStripMenuItem1
+        '
+        Me.PoppegToolStripMenuItem1.Name = "PoppegToolStripMenuItem1"
+        Me.PoppegToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.PoppegToolStripMenuItem1.Text = "Poppeg"
+        '
+        'Pertemuan10ToolStripMenuItem
+        '
+        Me.Pertemuan10ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoginToolStripMenuItem, Me.MainMenuToolStripMenuItem})
+        Me.Pertemuan10ToolStripMenuItem.Name = "Pertemuan10ToolStripMenuItem"
+        Me.Pertemuan10ToolStripMenuItem.Size = New System.Drawing.Size(113, 24)
+        Me.Pertemuan10ToolStripMenuItem.Text = "Pertemuan 10"
+        '
+        'LoginToolStripMenuItem
+        '
+        Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.LoginToolStripMenuItem.Text = "Login"
+        '
+        'MainMenuToolStripMenuItem
+        '
+        Me.MainMenuToolStripMenuItem.Name = "MainMenuToolStripMenuItem"
+        Me.MainMenuToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.MainMenuToolStripMenuItem.Text = "Main Menu"
+        '
         'Menu_Form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(915, 450)
+        Me.ClientSize = New System.Drawing.Size(1131, 450)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -390,4 +449,12 @@ Partial Class Menu_Form
     Friend WithEvents KotaTujuanToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MaskapaiPenerbanganToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PenjualanBarangToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents DataPegawaiToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PoppegToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Pertemuan9ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents DataPegawaoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PoppegToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents Pertemuan10ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MainMenuToolStripMenuItem As ToolStripMenuItem
 End Class
