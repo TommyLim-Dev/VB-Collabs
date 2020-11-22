@@ -342,13 +342,13 @@ Partial Class Menu_Form
         'DataPegawaiToolStripMenuItem
         '
         Me.DataPegawaiToolStripMenuItem.Name = "DataPegawaiToolStripMenuItem"
-        Me.DataPegawaiToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.DataPegawaiToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.DataPegawaiToolStripMenuItem.Text = "Data Pegawai"
         '
         'PoppegToolStripMenuItem
         '
         Me.PoppegToolStripMenuItem.Name = "PoppegToolStripMenuItem"
-        Me.PoppegToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.PoppegToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.PoppegToolStripMenuItem.Text = "Poppeg"
         '
         'Pertemuan9ToolStripMenuItem
@@ -361,13 +361,13 @@ Partial Class Menu_Form
         'DataPegawaoToolStripMenuItem
         '
         Me.DataPegawaoToolStripMenuItem.Name = "DataPegawaoToolStripMenuItem"
-        Me.DataPegawaoToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.DataPegawaoToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.DataPegawaoToolStripMenuItem.Text = "Data Pegawai"
         '
         'PoppegToolStripMenuItem1
         '
         Me.PoppegToolStripMenuItem1.Name = "PoppegToolStripMenuItem1"
-        Me.PoppegToolStripMenuItem1.Size = New System.Drawing.Size(224, 26)
+        Me.PoppegToolStripMenuItem1.Size = New System.Drawing.Size(183, 26)
         Me.PoppegToolStripMenuItem1.Text = "Poppeg"
         '
         'Pertemuan10ToolStripMenuItem
@@ -380,13 +380,13 @@ Partial Class Menu_Form
         'LoginToolStripMenuItem
         '
         Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
         Me.LoginToolStripMenuItem.Text = "Login"
         '
         'MainMenuToolStripMenuItem
         '
         Me.MainMenuToolStripMenuItem.Name = "MainMenuToolStripMenuItem"
-        Me.MainMenuToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.MainMenuToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
         Me.MainMenuToolStripMenuItem.Text = "Main Menu"
         '
         'Menu_Form

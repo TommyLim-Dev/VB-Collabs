@@ -90,7 +90,7 @@
     End Sub
 
     Private Sub PenghitunganGajiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenghitunganGajiToolStripMenuItem.Click
-        Dim frmpenghitungan_gaji As penghitungan_gaji
+        Dim frmpenghitungan_gaji As New penghitungan_gaji
         frmpenghitungan_gaji.ShowDialog()
     End Sub
 
@@ -197,4 +197,5 @@
         Dim menufrm As New Form2
         menufrm.ShowDialog()
     End Sub
+
 End Class
