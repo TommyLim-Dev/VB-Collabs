@@ -27,27 +27,41 @@ C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\V
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.pdb
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.xml
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.exe.config
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.exe
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.pdb
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.xml
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.hello_world.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Menu_Form.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Resources.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data_2.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_2.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_relasi.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.GenerateResource.cache
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.CoreCompileInputs.cache
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.exe
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.xml
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.pdb
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data.resources
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data_2.resources
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form1.resources
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_2.resources
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_relasi.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\Pertemuan_08\ADOGaji.accdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\Pertemuan_09\ADOGaji.accdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\pertemuan_10\DBAplikasi.accdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.exe.config
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.exe
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.pdb
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\GitHub.xml
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.Shared.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\stdole.dll
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.hello_world.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Menu_Form.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Resources.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.convert_tipe_data_2.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_1.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_2.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.operator_relasi.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.checkboxs.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.comboboxs.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.entry_data_mahasiswa.resources
@@ -66,22 +80,24 @@ D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHu
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.do_until_Loop.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.do_while_loop.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.for_next.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.for_next_2.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.for_next_3.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.for_next_4.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.while_end_while.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Array_Combobox.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Dinamic_Array.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Kota_Tujuan.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Maskapai_Penerbangan.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Penjualan_Barang.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.for_next_2.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.while_end_while.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.formawal.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.poppeg2.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form1.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form2.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\Pertemuan_08\ADOGaji.accdb
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\pertemuan_10\DBAplikasi.accdb
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Formawal1.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.poppegs.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\Pertemuan_09\ADOGaji.accdb
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbprojAssemblyReference.cache
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form1.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form2.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.GenerateResource.cache
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.CoreCompileInputs.cache
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.CopyComplete
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.exe
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.xml
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.pdb

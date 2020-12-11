@@ -191,6 +191,7 @@
     Private Sub LoginToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LoginToolStripMenuItem.Click
         Dim loginfrm As New Form1
         loginfrm.ShowDialog()
+
     End Sub
 
     Private Sub MainMenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MainMenuToolStripMenuItem.Click
