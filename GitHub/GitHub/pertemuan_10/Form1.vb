@@ -9,7 +9,7 @@ Public Class Form1
 
         If CNN1.State <> ConnectionState.Closed Then CNN1.Close()
         CNN1.Open()
-        Dim OLECMD As OleDbCommand = New OleDbCommand("Select * FROM login WHERE username = '" & TextBox1.Text & "' and Password = '" & TextBox2.Text & "' ", CNN)
+        Dim OLECMD As OleDbCommand = New OleDbCommand("Select * FROM login WHERE username = '" & TextBox1.Text & "' and Password = '" & TextBox2.Text & "' ", CNN1)
         Dim OLERDR As OleDbDataReader = OLECMD.ExecuteReader
         If (OLERDR.Read()) Then
 
