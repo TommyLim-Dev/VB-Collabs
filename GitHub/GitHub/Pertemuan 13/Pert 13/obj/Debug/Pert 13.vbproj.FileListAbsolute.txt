@@ -1,0 +1,13 @@
+C:\Visual studio\Project\Pert 13\Pert 13\bin\Debug\Pert 13.exe.config
+C:\Visual studio\Project\Pert 13\Pert 13\bin\Debug\Pert 13.exe
+C:\Visual studio\Project\Pert 13\Pert 13\bin\Debug\Pert 13.pdb
+C:\Visual studio\Project\Pert 13\Pert 13\bin\Debug\Pert 13.xml
+C:\Visual studio\Project\Pert 13\Pert 13\obj\Debug\Pert 13.vbprojAssemblyReference.cache
+C:\Visual studio\Project\Pert 13\Pert 13\obj\Debug\Pert_13.Form1.resources
+C:\Visual studio\Project\Pert 13\Pert 13\obj\Debug\Pert_13.Form2.resources
+C:\Visual studio\Project\Pert 13\Pert 13\obj\Debug\Pert_13.Resources.resources
+C:\Visual studio\Project\Pert 13\Pert 13\obj\Debug\Pert 13.vbproj.GenerateResource.cache
+C:\Visual studio\Project\Pert 13\Pert 13\obj\Debug\Pert 13.vbproj.CoreCompileInputs.cache
+C:\Visual studio\Project\Pert 13\Pert 13\obj\Debug\Pert 13.exe
+C:\Visual studio\Project\Pert 13\Pert 13\obj\Debug\Pert 13.xml
+C:\Visual studio\Project\Pert 13\Pert 13\obj\Debug\Pert 13.pdb
