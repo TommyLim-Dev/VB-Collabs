@@ -31,100 +31,128 @@ Partial Class convert_tipe_data
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(218, 185)
+        Me.Button1.Location = New System.Drawing.Point(200, 175)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(100, 31)
+        Me.Button1.Size = New System.Drawing.Size(150, 40)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Hitung"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(218, 47)
+        Me.TextBox1.Location = New System.Drawing.Point(200, 25)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(150, 22)
         Me.TextBox1.TabIndex = 1
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(218, 89)
+        Me.TextBox2.Location = New System.Drawing.Point(200, 75)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(150, 22)
         Me.TextBox2.TabIndex = 2
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(218, 127)
+        Me.TextBox3.Location = New System.Drawing.Point(200, 125)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(150, 22)
         Me.TextBox3.TabIndex = 3
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(218, 246)
+        Me.TextBox4.Location = New System.Drawing.Point(200, 240)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox4.Size = New System.Drawing.Size(150, 22)
         Me.TextBox4.TabIndex = 4
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(89, 47)
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label1.Location = New System.Drawing.Point(25, 25)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(95, 17)
+        Me.Label1.Size = New System.Drawing.Size(150, 25)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Nama Barang"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(89, 89)
+        Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label2.Location = New System.Drawing.Point(25, 75)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(47, 17)
+        Me.Label2.Size = New System.Drawing.Size(150, 25)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Harga"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(89, 127)
+        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label3.Location = New System.Drawing.Point(25, 125)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(53, 17)
+        Me.Label3.Size = New System.Drawing.Size(150, 25)
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "Jumlah"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label4
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(92, 246)
+        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label4.Location = New System.Drawing.Point(25, 240)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(40, 17)
+        Me.Label4.Size = New System.Drawing.Size(150, 25)
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "Total"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label5
+        '
+        Me.Label5.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(0, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(377, 100)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "CONVERT TIPE DATA"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.Label4)
+        Me.Panel1.Controls.Add(Me.TextBox1)
+        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Controls.Add(Me.TextBox2)
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.TextBox3)
+        Me.Panel1.Controls.Add(Me.TextBox4)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 100)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(377, 283)
+        Me.Panel1.TabIndex = 13
         '
         'convert_tipe_data
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(377, 383)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Label5)
         Me.Name = "convert_tipe_data"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Convert Tipe Data"
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -137,4 +165,6 @@ Partial Class convert_tipe_data
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Panel1 As Panel
 End Class

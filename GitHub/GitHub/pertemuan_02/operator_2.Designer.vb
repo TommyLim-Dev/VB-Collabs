@@ -35,71 +35,77 @@ Partial Class operator_2
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.GroupBox1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'text1
         '
-        Me.text1.Location = New System.Drawing.Point(104, 62)
+        Me.text1.Location = New System.Drawing.Point(25, 75)
         Me.text1.Name = "text1"
-        Me.text1.Size = New System.Drawing.Size(100, 22)
+        Me.text1.Size = New System.Drawing.Size(150, 22)
         Me.text1.TabIndex = 0
         '
         'text2
         '
-        Me.text2.Location = New System.Drawing.Point(104, 138)
+        Me.text2.Location = New System.Drawing.Point(25, 175)
         Me.text2.Name = "text2"
-        Me.text2.Size = New System.Drawing.Size(100, 22)
+        Me.text2.Size = New System.Drawing.Size(150, 22)
         Me.text2.TabIndex = 1
         '
         'hasil
         '
-        Me.hasil.Location = New System.Drawing.Point(104, 288)
+        Me.hasil.Location = New System.Drawing.Point(25, 340)
         Me.hasil.Name = "hasil"
-        Me.hasil.Size = New System.Drawing.Size(100, 22)
+        Me.hasil.Size = New System.Drawing.Size(150, 22)
         Me.hasil.TabIndex = 2
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(104, 30)
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label1.Location = New System.Drawing.Point(25, 25)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(47, 17)
+        Me.Label1.Size = New System.Drawing.Size(150, 25)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Nilai 1"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(104, 105)
+        Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label2.Location = New System.Drawing.Point(25, 125)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(47, 17)
+        Me.Label2.Size = New System.Drawing.Size(150, 25)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Nilai 2"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(104, 249)
+        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label3.Location = New System.Drawing.Point(25, 290)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 17)
+        Me.Label3.Size = New System.Drawing.Size(150, 25)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Hasil"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(104, 191)
+        Me.Button1.Location = New System.Drawing.Point(25, 225)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(100, 31)
+        Me.Button1.Size = New System.Drawing.Size(150, 40)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "Hitung"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(446, 348)
+        Me.Button2.Location = New System.Drawing.Point(300, 225)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(150, 40)
         Me.Button2.TabIndex = 7
         Me.Button2.Text = "Keluar"
         Me.Button2.UseVisualStyleBackColor = True
@@ -110,9 +116,9 @@ Partial Class operator_2
         Me.GroupBox1.Controls.Add(Me.RadioButton3)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(267, 62)
+        Me.GroupBox1.Location = New System.Drawing.Point(200, 25)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(254, 188)
+        Me.GroupBox1.Size = New System.Drawing.Size(250, 172)
         Me.GroupBox1.TabIndex = 8
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Operator"
@@ -120,7 +126,7 @@ Partial Class operator_2
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(18, 131)
+        Me.RadioButton4.Location = New System.Drawing.Point(25, 120)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(198, 21)
         Me.RadioButton4.TabIndex = 3
@@ -131,7 +137,7 @@ Partial Class operator_2
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(18, 103)
+        Me.RadioButton3.Location = New System.Drawing.Point(25, 90)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(102, 21)
         Me.RadioButton3.TabIndex = 2
@@ -142,7 +148,7 @@ Partial Class operator_2
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(18, 76)
+        Me.RadioButton2.Location = New System.Drawing.Point(25, 60)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(168, 21)
         Me.RadioButton2.TabIndex = 1
@@ -153,7 +159,7 @@ Partial Class operator_2
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(18, 49)
+        Me.RadioButton1.Location = New System.Drawing.Point(25, 30)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(118, 21)
         Me.RadioButton1.TabIndex = 0
@@ -161,27 +167,48 @@ Partial Class operator_2
         Me.RadioButton1.Text = "Pembagian (/)"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
+        'Label9
+        '
+        Me.Label9.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(0, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(477, 100)
+        Me.Label9.TabIndex = 19
+        Me.Label9.Text = "OPERATOR 2"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.text1)
+        Me.Panel1.Controls.Add(Me.GroupBox1)
+        Me.Panel1.Controls.Add(Me.text2)
+        Me.Panel1.Controls.Add(Me.Button2)
+        Me.Panel1.Controls.Add(Me.hasil)
+        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 100)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(477, 383)
+        Me.Panel1.TabIndex = 20
+        '
         'operator_2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.hasil)
-        Me.Controls.Add(Me.text2)
-        Me.Controls.Add(Me.text1)
+        Me.ClientSize = New System.Drawing.Size(477, 483)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Label9)
         Me.Name = "operator_2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Operator 2"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -198,4 +225,6 @@ Partial Class operator_2
     Friend WithEvents RadioButton3 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Panel1 As Panel
 End Class
