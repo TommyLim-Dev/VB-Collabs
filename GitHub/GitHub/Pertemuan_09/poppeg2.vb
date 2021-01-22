@@ -44,7 +44,7 @@ Public Class poppegs
         test = "SELECT * FROM Pegawai WHERE NIP like '%" &
             Trim(txtNIP.Text) & "%' ORDER BY NIP ASC"
 
-        cnn = New OleDbConnection(KONEKSI)
+
         If cnn.State <> ConnectionState.Closed Then cnn.Close()
         cnn.Open()
         cmmd = New OleDbCommand(test, cnn)

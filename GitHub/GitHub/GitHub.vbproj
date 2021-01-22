@@ -326,13 +326,27 @@
     <Compile Include="pertemuan_10\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pertemuan_10\Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="pertemuan_10\Module.vb" />
+    <Compile Include="Pertemuan_12\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
-    <Compile Include="pertemuan_10\Form2.vb">
+    <Compile Include="Pertemuan_12\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pertemuan_10\Module.vb" />
+    <Compile Include="Pertemuan_12\Module1.vb" />
+    <Compile Include="Pertemuan_13\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pertemuan_13\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pertemuan_13\Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pertemuan_13\Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pertemuan_13\Module1.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="pertemuan_01\hello_world.resx">
@@ -458,7 +472,13 @@
     <EmbeddedResource Include="pertemuan_10\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pertemuan_10\Form2.resx">
+    <EmbeddedResource Include="Pertemuan_12\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pertemuan_13\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pertemuan_13\Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>

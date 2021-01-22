@@ -27,7 +27,7 @@ Public Class Formawal1
         Else
             kawin = "Kawin"
         End If
-        CNN = New OleDbConnection(KONEKSI)
+
         If CNN.State <> ConnectionState.Closed Then CNN.Close()
         CNN.Open()
         OLECMD = New OleDbCommand("insert into Pegawai (NIP,NamaPgw,Bagian,TglLhr,Alamat,Pendidikan,Status) Values ('" &

@@ -14,7 +14,7 @@ Public Class Form1
         If (OLERDR.Read()) Then
 
             MsgBox("sukses")
-            Form2.ShowDialog()
+
         Else
             MsgBox("Maaf Username dan Password tidak ditemukan....!", MsgBoxStyle.OkOnly, "Login Gagal")
             TxtUser.Text = ""

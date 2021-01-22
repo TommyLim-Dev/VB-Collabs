@@ -94,7 +94,6 @@ D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHu
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Formawal1.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.poppegs.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form1.resources
-D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form2.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.GenerateResource.cache
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.CoreCompileInputs.cache
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.CopyComplete
@@ -155,3 +154,6 @@ C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\V
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.poppegs.resources
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form2.resources
 C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.vbproj.CopyComplete
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Pert12.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form13a.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form13b.resources

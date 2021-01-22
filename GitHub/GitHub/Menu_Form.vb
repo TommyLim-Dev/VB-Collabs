@@ -195,8 +195,7 @@
     End Sub
 
     Private Sub MainMenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MainMenuToolStripMenuItem.Click
-        Dim menufrm As New Form2
-        menufrm.ShowDialog()
+
     End Sub
 
 End Class
