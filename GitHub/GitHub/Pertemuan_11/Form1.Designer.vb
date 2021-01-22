@@ -39,6 +39,7 @@ Partial Class Formawal11a
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.BExit = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.BCancel = New System.Windows.Forms.Button()
         Me.BDelete = New System.Windows.Forms.Button()
         Me.BEdit = New System.Windows.Forms.Button()
@@ -52,7 +53,7 @@ Partial Class Formawal11a
         'txtNIP
         '
         Me.txtNIP.Location = New System.Drawing.Point(263, 39)
-        Me.txtNIP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtNIP.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNIP.Name = "txtNIP"
         Me.txtNIP.Size = New System.Drawing.Size(132, 22)
         Me.txtNIP.TabIndex = 0
@@ -130,7 +131,7 @@ Partial Class Formawal11a
         'txtNama
         '
         Me.txtNama.Location = New System.Drawing.Point(263, 75)
-        Me.txtNama.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtNama.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNama.Name = "txtNama"
         Me.txtNama.Size = New System.Drawing.Size(132, 22)
         Me.txtNama.TabIndex = 10
@@ -138,7 +139,7 @@ Partial Class Formawal11a
         'DTglLhr
         '
         Me.DTglLhr.Location = New System.Drawing.Point(263, 154)
-        Me.DTglLhr.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DTglLhr.Margin = New System.Windows.Forms.Padding(4)
         Me.DTglLhr.Name = "DTglLhr"
         Me.DTglLhr.Size = New System.Drawing.Size(265, 22)
         Me.DTglLhr.TabIndex = 12
@@ -148,7 +149,7 @@ Partial Class Formawal11a
         Me.cmbBgn.FormattingEnabled = True
         Me.cmbBgn.Items.AddRange(New Object() {"Admin" & Global.Microsoft.VisualBasic.ChrW(9), "Finance", "Direktur", "Manager"})
         Me.cmbBgn.Location = New System.Drawing.Point(263, 114)
-        Me.cmbBgn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmbBgn.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbBgn.Name = "cmbBgn"
         Me.cmbBgn.Size = New System.Drawing.Size(160, 24)
         Me.cmbBgn.TabIndex = 13
@@ -158,7 +159,7 @@ Partial Class Formawal11a
         Me.cmbPend.FormattingEnabled = True
         Me.cmbPend.Items.AddRange(New Object() {"SMP", "SMA", "S1", "S2"})
         Me.cmbPend.Location = New System.Drawing.Point(263, 314)
-        Me.cmbPend.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cmbPend.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbPend.Name = "cmbPend"
         Me.cmbPend.Size = New System.Drawing.Size(160, 24)
         Me.cmbPend.TabIndex = 14
@@ -167,7 +168,7 @@ Partial Class Formawal11a
         '
         Me.RBlmKwn.AutoSize = True
         Me.RBlmKwn.Location = New System.Drawing.Point(19, 28)
-        Me.RBlmKwn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RBlmKwn.Margin = New System.Windows.Forms.Padding(4)
         Me.RBlmKwn.Name = "RBlmKwn"
         Me.RBlmKwn.Size = New System.Drawing.Size(109, 21)
         Me.RBlmKwn.TabIndex = 15
@@ -179,7 +180,7 @@ Partial Class Formawal11a
         '
         Me.RKwn.AutoSize = True
         Me.RKwn.Location = New System.Drawing.Point(177, 28)
-        Me.RKwn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RKwn.Margin = New System.Windows.Forms.Padding(4)
         Me.RKwn.Name = "RKwn"
         Me.RKwn.Size = New System.Drawing.Size(66, 21)
         Me.RKwn.TabIndex = 16
@@ -192,9 +193,9 @@ Partial Class Formawal11a
         Me.GroupBox1.Controls.Add(Me.RBlmKwn)
         Me.GroupBox1.Controls.Add(Me.RKwn)
         Me.GroupBox1.Location = New System.Drawing.Point(263, 369)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Size = New System.Drawing.Size(307, 70)
         Me.GroupBox1.TabIndex = 17
         Me.GroupBox1.TabStop = False
@@ -203,14 +204,15 @@ Partial Class Formawal11a
         '
         Me.GroupBox2.BackColor = System.Drawing.SystemColors.ControlDark
         Me.GroupBox2.Controls.Add(Me.BExit)
+        Me.GroupBox2.Controls.Add(Me.Button1)
         Me.GroupBox2.Controls.Add(Me.BCancel)
         Me.GroupBox2.Controls.Add(Me.BDelete)
         Me.GroupBox2.Controls.Add(Me.BEdit)
         Me.GroupBox2.Controls.Add(Me.BSave)
         Me.GroupBox2.Location = New System.Drawing.Point(635, 26)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Size = New System.Drawing.Size(257, 464)
         Me.GroupBox2.TabIndex = 0
         Me.GroupBox2.TabStop = False
@@ -218,17 +220,27 @@ Partial Class Formawal11a
         'BExit
         '
         Me.BExit.Location = New System.Drawing.Point(69, 410)
-        Me.BExit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BExit.Margin = New System.Windows.Forms.Padding(4)
         Me.BExit.Name = "BExit"
         Me.BExit.Size = New System.Drawing.Size(100, 28)
         Me.BExit.TabIndex = 5
         Me.BExit.Text = "Exit"
         Me.BExit.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(69, 203)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
+        Me.Button1.TabIndex = 4
+        Me.Button1.Text = "Print"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'BCancel
         '
         Me.BCancel.Location = New System.Drawing.Point(69, 160)
-        Me.BCancel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BCancel.Margin = New System.Windows.Forms.Padding(4)
         Me.BCancel.Name = "BCancel"
         Me.BCancel.Size = New System.Drawing.Size(100, 28)
         Me.BCancel.TabIndex = 4
@@ -239,7 +251,7 @@ Partial Class Formawal11a
         '
         Me.BDelete.Enabled = False
         Me.BDelete.Location = New System.Drawing.Point(69, 116)
-        Me.BDelete.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BDelete.Margin = New System.Windows.Forms.Padding(4)
         Me.BDelete.Name = "BDelete"
         Me.BDelete.Size = New System.Drawing.Size(100, 28)
         Me.BDelete.TabIndex = 3
@@ -250,7 +262,7 @@ Partial Class Formawal11a
         '
         Me.BEdit.Enabled = False
         Me.BEdit.Location = New System.Drawing.Point(69, 65)
-        Me.BEdit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BEdit.Margin = New System.Windows.Forms.Padding(4)
         Me.BEdit.Name = "BEdit"
         Me.BEdit.Size = New System.Drawing.Size(100, 28)
         Me.BEdit.TabIndex = 2
@@ -260,7 +272,7 @@ Partial Class Formawal11a
         'BSave
         '
         Me.BSave.Location = New System.Drawing.Point(69, 20)
-        Me.BSave.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BSave.Margin = New System.Windows.Forms.Padding(4)
         Me.BSave.Name = "BSave"
         Me.BSave.Size = New System.Drawing.Size(100, 28)
         Me.BSave.TabIndex = 1
@@ -270,7 +282,7 @@ Partial Class Formawal11a
         'BCari
         '
         Me.BCari.Location = New System.Drawing.Point(429, 39)
-        Me.BCari.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BCari.Margin = New System.Windows.Forms.Padding(4)
         Me.BCari.Name = "BCari"
         Me.BCari.Size = New System.Drawing.Size(100, 28)
         Me.BCari.TabIndex = 0
@@ -280,13 +292,13 @@ Partial Class Formawal11a
         'txtAlamat
         '
         Me.txtAlamat.Location = New System.Drawing.Point(263, 198)
-        Me.txtAlamat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtAlamat.Margin = New System.Windows.Forms.Padding(4)
         Me.txtAlamat.Name = "txtAlamat"
         Me.txtAlamat.Size = New System.Drawing.Size(265, 95)
         Me.txtAlamat.TabIndex = 18
         Me.txtAlamat.Text = ""
         '
-        'Formawal1
+        'Formawal11a
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -307,8 +319,8 @@ Partial Class Formawal11a
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtNIP)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Name = "Formawal1"
+        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.Name = "Formawal11a"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Data Pegawai"
         Me.GroupBox1.ResumeLayout(False)
@@ -342,4 +354,5 @@ Partial Class Formawal11a
     Friend WithEvents BSave As Button
     Friend WithEvents BCari As Button
     Friend WithEvents txtAlamat As RichTextBox
+    Friend WithEvents Button1 As Button
 End Class

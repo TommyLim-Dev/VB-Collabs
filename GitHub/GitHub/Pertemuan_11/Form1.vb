@@ -45,16 +45,6 @@ Public Class Formawal11a
 
     End Sub
 
-    Private Sub BCancel_Click(sender As Object, e As EventArgs) Handles BCancel.Click
-        Call BERSIH()
-        BSave.Enabled = True
-        BEdit.Enabled = False
-        BDelete.Enabled = False
-        txtNIP.Enabled = True
-        txtNIP.Focus()
-
-    End Sub
-
     Private Sub txtNIP_TextChanged(sender As Object, e As EventArgs) Handles txtNIP.TextChanged
 
     End Sub
@@ -164,6 +154,23 @@ Public Class Formawal11a
 
     Private Sub txtAlamat_TextChanged(sender As Object, e As EventArgs) Handles txtAlamat.TextChanged
 
+    End Sub
+
+    Private Sub BCancel_Click(sender As Object, e As EventArgs) Handles BCancel.Click
+        Call BERSIH()
+        BSave.Enabled = True
+        BEdit.Enabled = False
+        BDelete.Enabled = False
+        txtNIP.Enabled = True
+        txtNIP.Focus()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim Report As New Form2
+        Report.CrystalReportViewer1.ReportSource = "CrystalReport1.rpt"
+        Report.CrystalReportViewer1.RefreshReport()
+        Report.WindowState = FormWindowState.Maximized
+        Report.ShowDialog()
     End Sub
 End Class
 

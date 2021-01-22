@@ -198,4 +198,7 @@
 
     End Sub
 
+    Private Sub Pertemuan11ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Pertemuan11ToolStripMenuItem.Click
+        Form1.ShowDialog()
+    End Sub
 End Class

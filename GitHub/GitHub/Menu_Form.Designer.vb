@@ -72,13 +72,14 @@ Partial Class Menu_Form
         Me.Pertemuan10ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MainMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Pertemuan11ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Pertemuan1ToolStripMenuItem, Me.Pertemuan2ToolStripMenuItem, Me.Pertemuan3ToolStripMenuItem, Me.Pertemuan4ToolStripMenuItem, Me.Pertemuan5ToolStripMenuItem, Me.Pertemuan6ToolStripMenuItem, Me.Pertemuan8ToolStripMenuItem, Me.Pertemuan9ToolStripMenuItem, Me.Pertemuan10ToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Pertemuan1ToolStripMenuItem, Me.Pertemuan2ToolStripMenuItem, Me.Pertemuan3ToolStripMenuItem, Me.Pertemuan4ToolStripMenuItem, Me.Pertemuan5ToolStripMenuItem, Me.Pertemuan6ToolStripMenuItem, Me.Pertemuan8ToolStripMenuItem, Me.Pertemuan9ToolStripMenuItem, Me.Pertemuan10ToolStripMenuItem, Me.Pertemuan11ToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
@@ -380,14 +381,20 @@ Partial Class Menu_Form
         'LoginToolStripMenuItem
         '
         Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.LoginToolStripMenuItem.Text = "Login"
         '
         'MainMenuToolStripMenuItem
         '
         Me.MainMenuToolStripMenuItem.Name = "MainMenuToolStripMenuItem"
-        Me.MainMenuToolStripMenuItem.Size = New System.Drawing.Size(166, 26)
+        Me.MainMenuToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.MainMenuToolStripMenuItem.Text = "Main Menu"
+        '
+        'Pertemuan11ToolStripMenuItem
+        '
+        Me.Pertemuan11ToolStripMenuItem.Name = "Pertemuan11ToolStripMenuItem"
+        Me.Pertemuan11ToolStripMenuItem.Size = New System.Drawing.Size(113, 24)
+        Me.Pertemuan11ToolStripMenuItem.Text = "Pertemuan 11"
         '
         'Menu_Form
         '
@@ -457,4 +464,5 @@ Partial Class Menu_Form
     Friend WithEvents Pertemuan10ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MainMenuToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Pertemuan11ToolStripMenuItem As ToolStripMenuItem
 End Class
