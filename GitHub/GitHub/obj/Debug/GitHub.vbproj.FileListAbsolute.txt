@@ -157,3 +157,6 @@ C:\Users\Chandra\Google Drive\Kuliah\Mata Kuliah\Semester 3\Pemrograman Visual\V
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Pert12.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form13a.resources
 D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Form13b.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.Formawal11a.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\obj\Debug\GitHub.poppegs11.resources
+D:\Semester III\VB.NET\GitHub Interface\VB-Collabs\GitHub\GitHub\bin\Debug\Pertemuan_11\ADOGaji.accdb

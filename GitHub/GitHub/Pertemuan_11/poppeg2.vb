@@ -1,6 +1,6 @@
 ﻿Imports System.Data.OleDb
 Imports System.Data
-Public Class poppegs
+Public Class poppegs11
     Public colNIP, colNama, colbgn, coltgllhr, colAlamat, colPend, colstatus As String
     Dim cnn As OleDbConnection
     Dim cmmd As OleDbCommand

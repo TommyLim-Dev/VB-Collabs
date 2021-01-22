@@ -28,14 +28,14 @@ Public Class formawal
             kawin = "Kawin"
         End If
 
-        If CNN.State <> ConnectionState.Closed Then CNN.Close()
-        CNN.Open()
-        OLECMD = New OleDbCommand("insert into Pegawai (NIP,NamaPgw,Bagian,TglLhr,Alamat,Pendidikan,Status) Values ('" &
+        If Module11.CNN.State <> ConnectionState.Closed Then Module11.CNN.Close()
+        Module11.CNN.Open()
+        Module11.OLECMD = New OleDbCommand("insert into Pegawai (NIP,NamaPgw,Bagian,TglLhr,Alamat,Pendidikan,Status) Values ('" &
                                   txtNIP.Text & "','" & txtNama.Text & "', '" & cmbBgn.Text & "', '" & DTglLhr.Value & "', 
-                                 '" & txtAlamat.Text & "', '" & cmbPend.Text & "', '" & kawin & "')", CNN)
+                                 '" & txtAlamat.Text & "', '" & cmbPend.Text & "', '" & kawin & "')", Module11.CNN)
 
-        X = OLECMD.ExecuteNonQuery
-        If X = True Then
+        Module11.X = Module11.OLECMD.ExecuteNonQuery
+        If Module11.X = True Then
             MsgBox("Data berhasil disimpan", MsgBoxStyle.Information, "Informasi")
             Call BERSIH()
             txtNIP.Focus()
@@ -81,18 +81,17 @@ Public Class formawal
         Else
             kawin = "Kawin"
         End If
-        CNN = New OleDbConnection(KONEKSI)
-        If CNN.State <> ConnectionState.Closed Then CNN.Close()
-        CNN.Open()
-        OLECMD = New OleDbCommand("Update Pegawai Set NamaPgw='" & txtNama.Text &
+        If Module11.CNN.State <> ConnectionState.Closed Then Module11.CNN.Close()
+        Module11.CNN.Open()
+        Module11.OLECMD = New OleDbCommand("Update Pegawai Set NamaPgw='" & txtNama.Text &
         "',Bagian='" & cmbBgn.Text &
         "',TglLhr='" & DTglLhr.Value &
         "',Alamat='" & txtAlamat.Text &
         "',Pendidikan='" & cmbPend.Text &
-        "',Status='" & kawin & "' where NIP ='" & txtNIP.Text & "'", CNN)
+        "',Status='" & kawin & "' where NIP ='" & txtNIP.Text & "'", Module11.CNN)
 
-        X = OLECMD.ExecuteNonQuery
-        If X = True Then
+        Module11.X = Module11.OLECMD.ExecuteNonQuery
+        If Module11.X = True Then
             MsgBox("Data berhaisil diedit", MsgBoxStyle.Information, "Informasi")
             Call BERSIH()
             txtNIP.Focus()
@@ -103,12 +102,11 @@ Public Class formawal
 
     Private Sub BDelete_Click(sender As Object, e As EventArgs) Handles BDelete.Click
         If MsgBox("Ingin menghapus data?", MsgBoxStyle.YesNo, "Konfirmasi") = MsgBoxResult.Yes Then
-            CNN = New OleDbConnection(KONEKSI)
-            If CNN.State <> ConnectionState.Closed Then CNN.Close()
-            CNN.Open()
-            OLECMD = New OleDbCommand("delete from Pegawai where NIP='" & txtNIP.Text & "'", CNN)
-            X = OLECMD.ExecuteNonQuery
-            If X = True Then
+            If Module11.CNN.State <> ConnectionState.Closed Then Module11.CNN.Close()
+            Module11.CNN.Open()
+            Module11.OLECMD = New OleDbCommand("delete from Pegawai where NIP='" & txtNIP.Text & "'", Module11.CNN)
+            Module11.X = Module11.OLECMD.ExecuteNonQuery
+            If Module11.X = True Then
                 Call BERSIH()
                 BSave.Enabled = True
                 BEdit.Enabled = False

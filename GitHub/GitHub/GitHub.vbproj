@@ -327,6 +327,19 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="pertemuan_10\Module.vb" />
+    <Compile Include="Pertemuan_11\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pertemuan_11\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pertemuan_11\Module1.vb" />
+    <Compile Include="Pertemuan_11\poppeg2.Designer.vb">
+      <DependentUpon>poppeg2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pertemuan_11\poppeg2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Pertemuan_12\Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
@@ -472,6 +485,12 @@
     <EmbeddedResource Include="pertemuan_10\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pertemuan_11\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pertemuan_11\poppeg2.resx">
+      <DependentUpon>poppeg2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pertemuan_12\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -494,6 +513,7 @@
     </None>
     <None Include="App.config" />
     <None Include="Pertemuan_08\ADOGaji.laccdb" />
+    <None Include="Pertemuan_11\DataPegawai.vbproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pertemuan_08\ADOGaji.accdb">
@@ -505,6 +525,10 @@
     <Content Include="pertemuan_10\DBAplikasi.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Pertemuan_11\ADOGaji.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pertemuan_11\DataPegawai.sln" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
